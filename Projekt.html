@@ -87,6 +87,11 @@
     <div id="map-container"></div>
     <div id="bar-chart-container" style="display: none;">
         <button class="back-button">Back to Map</button>
+        <button class="participated-button">Participation Chart</button>
+        <button class="played-button">Played Games Chart</button>
+        <button class="scored-button">Goals Scored Chart</button>
+        <button class="points-button">Team Points Chart</button>
+        <button class="titles-button">Team Titles Chart</button>
 
     </div>
     <div id="tooltip" style="position: absolute; visibility: hidden;">
@@ -152,7 +157,7 @@
                     });
 
             }
-             function loadTeamData1(countryName) {
+            function loadTeamData1(countryName) {
                 d3.json("AllTimeRankingByClub.json")
                     .then(function (teamData) {
                         var teams = teamData.filter(function (team) {
@@ -165,8 +170,54 @@
                     });
 
             }
+            function loadTeamData2(countryName) {
+                d3.json("AllTimeRankingByClub.json")
+                    .then(function (teamData) {
+                        var teams = teamData.filter(function (team) {
+                            return team.Country === countryName;
+                        });
+                        teams.sort(function (a, b) {
+                            return b.Goals_For - a.Goals_For;
+                        });
+                        displayBarChart2(teams);
+                    });
+
+            }
+          
+
+            
+            function loadTeamData3(countryName) {
+                d3.json("AllTimeRankingByClub.json")
+                    .then(function (teamData) {
+                        var teams = teamData.filter(function (team) {
+                            return team.Country === countryName;
+                        });
+                        teams.sort(function (a, b) {
+                            return b.Pts - a.Pts;
+                        });
+                        displayBarChart3(teams);
+                    });
+
+            }
+            function loadTeamData4(countryName) {
+                d3.json("AllTimeRankingByClub.json")
+                    .then(function (teamData) {
+                        var teams = teamData.filter(function (team) {
+                            return team.Country === countryName;
+                        });
+                        teams.sort(function (a, b) {
+                            return b.Titles - a.Titles;
+                        });
+                        displayBarChart4(teams);
+                    });
+
+            }
+
+
 
             function displayBarChart(teams) {
+                d3.select("#bar-chart-container").selectAll("svg").remove()
+
                 d3.select("#map-container").style("display", "none");
                 d3.select("#bar-chart-container").style("display", "block");
 
@@ -296,8 +347,8 @@
                         .text(function (d) { return d.data.label + ": " + d.data.value; });
                     pieContainer.append("text")
                         .attr("class", "chart-title")
-                        .attr("x", pieWidth/2)
-                        .attr("y", 20 )
+                        .attr("x", pieWidth / 2)
+                        .attr("y", 20)
                         .style("text-anchor", "middle")
                         .text(team.Club);
                 }
@@ -317,9 +368,9 @@
                         }
                     });
 
-                  
 
-                
+
+
 
                 d3.select(".back-button")
                     .on("click", function () {
@@ -327,17 +378,65 @@
                         d3.select("#bar-chart-container").style("display", "none");
 
                         chartContainer.transition()
-                            .duration(800) 
-                            .style("opacity", 0) 
+                            .duration(800)
+                            .style("opacity", 0)
                             .remove();
 
                     });
+
+                d3.select(".participated-button")
+                    .on("click", function () {
+
+                        var selectedCountry = teams[0].Country; 
+                        loadTeamData1(selectedCountry);
+
+                    });
+
+                    d3.select(".played-button")
+                    .on("click", function () {
+
+                        var selectedCountry = teams[0].Country; 
+                        loadTeamData(selectedCountry);
+
+                    });
+                    
+                d3.select(".scored-button")
+                    .on("click", function () {
+
+                        var selectedCountry = teams[0].Country; 
+                        loadTeamData2(selectedCountry);
+
+                    });
+                   
+
+                    d3.select(".points-button")
+                    .on("click", function () {
+
+                        var selectedCountry = teams[0].Country; 
+                        loadTeamData3(selectedCountry);
+
+                    });
+                    d3.select(".titles-button")
+                    .on("click", function () {
+
+                        var selectedCountry = teams[0].Country; 
+                        loadTeamData4(selectedCountry);
+
+                    });
+
+
+
+
+
+
             }
             function displayBarChart1(teams) {
-                d3.select("#map-container").style("display", "none");
+                d3.select("#bar-chart-container").selectAll("svg").remove()
+
                 d3.select("#bar-chart-container").style("display", "block");
 
-                d3.select("#bar-chart-container").selectAll("svg").remove()
+
+
 
                 var chartContainer = d3.select("#bar-chart-container")
                     .append("svg")
@@ -415,7 +514,7 @@
                     .attr("x", width / 2)
                     .attr("y", margin.top / 2)
                     .style("text-anchor", "middle")
-                    .text("Number of games playedpart by clubs in " + teams[0].Country);
+                    .text("Number of seasons participated by clubs in " + teams[0].Country);
 
                 var pieWidth = 400;
                 var pieHeight = 300;
@@ -440,7 +539,7 @@
                     pieContainer.selectAll(".chart-title").remove();
 
                     var pieGroup = pieContainer.append("g")
-                        .attr("transform", "translate(" + pieWidth / 2 + "," + (pieHeight / 2 + 70) + ")"); 
+                        .attr("transform", "translate(" + pieWidth / 2 + "," + (pieHeight / 2 + 70) + ")");
 
 
                     var pieData = [
@@ -465,10 +564,10 @@
                         .attr("text-anchor", "middle")
                         .text(function (d) { return d.data.label + ": " + d.data.value; });
 
-                        pieContainer.append("text")
+                    pieContainer.append("text")
                         .attr("class", "chart-title")
-                        .attr("x", pieWidth/2)
-                        .attr("y", 20 )
+                        .attr("x", pieWidth / 2)
+                        .attr("y", 20)
                         .style("text-anchor", "middle")
                         .text(team.Club);
                 }
@@ -489,19 +588,528 @@
                     });
 
 
-                    
 
 
-                
+
+
 
                 d3.select(".back-button")
                     .on("click", function () {
                         d3.select("#map-container").style("display", "block");
                         d3.select("#bar-chart-container").style("display", "none");
-                            chartContainer.remove
+                        chartContainer.remove
 
                     });
+               
             }
+            function displayBarChart2(teams) {
+    d3.select("#bar-chart-container").selectAll("svg").remove()
+    d3.select("#bar-chart-container").style("display", "block");
+
+    d3.select("#bar-chart-container").selectAll("svg").remove()
+
+    var chartContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var margin = { top: 50, right: 50, bottom: 130, left: 70 };
+    var plotWidth = width - margin.left - margin.right;
+    var plotHeight = height - margin.top - margin.bottom;
+
+    var xScale = d3.scaleBand()
+        .domain(teams.map(function (team) { return team.Club; }))
+        .range([margin.left, margin.left + plotWidth])
+        .padding(0.1);
+
+    var yScale = d3.scaleLinear()
+        .domain([0, d3.max(teams, function (team) { return team.Goals_For; })])
+        .range([margin.top + plotHeight, margin.top]);
+
+    var xAxis = d3.axisBottom(xScale);
+    var yAxis = d3.axisLeft(yScale);
+
+
+    chartContainer.selectAll(".bar")
+        .data(teams)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", function (team) { return xScale(team.Club); })
+        .attr("y", function () { return yScale(0); })
+        .attr("width", xScale.bandwidth())
+        .attr("height", function () { return 0; })
+        .on("mousemove", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "visible")
+                .style("top", (event.pageY - 10) + "px")
+                .style("left", (event.pageX + 10) + "px");
+            tooltip.select("#tooltip-club").text(d.Club);
+            tooltip.select("#tooltip-played").text("Goals Scored: " + d.Goals_For);
+        })
+        .on("mouseout", function () {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+        });
+
+    chartContainer.selectAll(".bar")
+        .transition()
+        .duration(800)
+        .delay(function (team, index) { return index * 100; })
+        .attr("y", function (team) { return yScale(team.Goals_For); })
+        .attr("height", function (team) { return plotHeight - (yScale(team.Goals_For) - margin.top); });
+
+
+
+
+
+    chartContainer.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
+        .call(xAxis)
+        .selectAll("text")
+        .attr("class", "bar-label")
+        .style("text-anchor", "end")
+        .attr("dx", "-0.5em")
+        .attr("dy", "-0.5em")
+        .attr("transform", "rotate(-45)");
+
+    chartContainer.append("g")
+        .attr("class", "y-axis")
+        .attr("transform", "translate(" + margin.left + ",0)")
+        .call(yAxis);
+
+    chartContainer.append("text")
+        .attr("class", "chart-title")
+        .attr("x", width / 2)
+        .attr("y", margin.top / 2)
+        .style("text-anchor", "middle")
+        .text("Number of goals scored by clubs in " + teams[0].Country);
+
+    var pieWidth = 400;
+    var pieHeight = 300;
+    var radius = Math.min(pieWidth, pieHeight) / 2;
+
+    var pieContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", pieWidth)
+        .attr("height", pieHeight + 100)
+        .style("display", "none");
+
+    var arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+    var pie = d3.pie()
+        .value(function (d) { return d.value; })
+        .sort(null);
+
+    function displayPieChart(team) {
+        pieContainer.selectAll("g").remove();
+        pieContainer.selectAll(".chart-title").remove();
+
+        var pieGroup = pieContainer.append("g")
+            .attr("transform", "translate(" + pieWidth / 2 + "," + (pieHeight / 2 + 70) + ")"); 
+
+
+        var pieData = [
+            { label: "Wins", value: team.Win },
+            { label: "Draws", value: team.Draw },
+            { label: "Losses", value: team.Loss }
+        ];
+
+        var slices = pieGroup.selectAll(".slice")
+            .data(pie(pieData))
+            .enter()
+            .append("g")
+            .attr("class", "slice");
+
+        slices.append("path")
+            .attr("d", arc)
+            .attr("fill", function (d) { return d.data.label === "Wins" ? "green" : (d.data.label === "Draws" ? "gray" : "red"); });
+
+        slices.append("text")
+            .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .text(function (d) { return d.data.label + ": " + d.data.value; });
+
+            pieContainer.append("text")
+            .attr("class", "chart-title")
+            .attr("x", pieWidth/2)
+            .attr("y", 20 )
+            .style("text-anchor", "middle")
+            .text(team.Club);
+    }
+
+    chartContainer.selectAll(".bar")
+        .on("click", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+
+            var pieChartVisible = pieContainer.style("display") !== "none";
+
+            if (pieChartVisible) {
+                pieContainer.style("display", "none");
+            } else {
+                displayPieChart(d);
+                pieContainer.style("display", "block");
+            }
+        });
+
+
+        
+
+
+    
+
+    d3.select(".back-button")
+        .on("click", function () {
+            d3.select("#map-container").style("display", "block");
+            d3.select("#bar-chart-container").style("display", "none");
+                chartContainer.remove
+
+        });
+}
+
+function displayBarChart3(teams) {
+    d3.select("#bar-chart-container").selectAll("svg").remove()
+    d3.select("#bar-chart-container").style("display", "block");
+
+    d3.select("#bar-chart-container").selectAll("svg").remove()
+
+    var chartContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var margin = { top: 50, right: 50, bottom: 130, left: 70 };
+    var plotWidth = width - margin.left - margin.right;
+    var plotHeight = height - margin.top - margin.bottom;
+
+    var xScale = d3.scaleBand()
+        .domain(teams.map(function (team) { return team.Club; }))
+        .range([margin.left, margin.left + plotWidth])
+        .padding(0.1);
+
+    var yScale = d3.scaleLinear()
+        .domain([0, d3.max(teams, function (team) { return team.Pts; })])
+        .range([margin.top + plotHeight, margin.top]);
+
+    var xAxis = d3.axisBottom(xScale);
+    var yAxis = d3.axisLeft(yScale);
+
+
+    chartContainer.selectAll(".bar")
+        .data(teams)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", function (team) { return xScale(team.Club); })
+        .attr("y", function () { return yScale(0); })
+        .attr("width", xScale.bandwidth())
+        .attr("height", function () { return 0; })
+        .on("mousemove", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "visible")
+                .style("top", (event.pageY - 10) + "px")
+                .style("left", (event.pageX + 10) + "px");
+            tooltip.select("#tooltip-club").text(d.Club);
+            tooltip.select("#tooltip-played").text("Team Points: " + d.Pts);
+        })
+        .on("mouseout", function () {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+        });
+
+    chartContainer.selectAll(".bar")
+        .transition()
+        .duration(800)
+        .delay(function (team, index) { return index * 100; })
+        .attr("y", function (team) { return yScale(team.Pts); })
+        .attr("height", function (team) { return plotHeight - (yScale(team.Pts) - margin.top); });
+
+
+
+
+
+    chartContainer.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
+        .call(xAxis)
+        .selectAll("text")
+        .attr("class", "bar-label")
+        .style("text-anchor", "end")
+        .attr("dx", "-0.5em")
+        .attr("dy", "-0.5em")
+        .attr("transform", "rotate(-45)");
+
+    chartContainer.append("g")
+        .attr("class", "y-axis")
+        .attr("transform", "translate(" + margin.left + ",0)")
+        .call(yAxis);
+
+    chartContainer.append("text")
+        .attr("class", "chart-title")
+        .attr("x", width / 2)
+        .attr("y", margin.top / 2)
+        .style("text-anchor", "middle")
+        .text("Number of points  by clubs in " + teams[0].Country);
+
+    var pieWidth = 400;
+    var pieHeight = 300;
+    var radius = Math.min(pieWidth, pieHeight) / 2;
+
+    var pieContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", pieWidth)
+        .attr("height", pieHeight + 100)
+        .style("display", "none");
+
+    var arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+    var pie = d3.pie()
+        .value(function (d) { return d.value; })
+        .sort(null);
+
+    function displayPieChart(team) {
+        pieContainer.selectAll("g").remove();
+        pieContainer.selectAll(".chart-title").remove();
+
+        var pieGroup = pieContainer.append("g")
+            .attr("transform", "translate(" + pieWidth / 2 + "," + (pieHeight / 2 + 70) + ")"); 
+
+
+        var pieData = [
+            { label: "Wins", value: team.Win },
+            { label: "Draws", value: team.Draw },
+            { label: "Losses", value: team.Loss }
+        ];
+
+        var slices = pieGroup.selectAll(".slice")
+            .data(pie(pieData))
+            .enter()
+            .append("g")
+            .attr("class", "slice");
+
+        slices.append("path")
+            .attr("d", arc)
+            .attr("fill", function (d) { return d.data.label === "Wins" ? "green" : (d.data.label === "Draws" ? "gray" : "red"); });
+
+        slices.append("text")
+            .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .text(function (d) { return d.data.label + ": " + d.data.value; });
+
+            pieContainer.append("text")
+            .attr("class", "chart-title")
+            .attr("x", pieWidth/2)
+            .attr("y", 20 )
+            .style("text-anchor", "middle")
+            .text(team.Club);
+    }
+
+    chartContainer.selectAll(".bar")
+        .on("click", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+
+            var pieChartVisible = pieContainer.style("display") !== "none";
+
+            if (pieChartVisible) {
+                pieContainer.style("display", "none");
+            } else {
+                displayPieChart(d);
+                pieContainer.style("display", "block");
+            }
+        });
+
+
+        
+
+
+    
+
+    d3.select(".back-button")
+        .on("click", function () {
+            d3.select("#map-container").style("display", "block");
+            d3.select("#bar-chart-container").style("display", "none");
+                chartContainer.remove
+
+        });
+}
+function displayBarChart4(teams) {
+    d3.select("#bar-chart-container").selectAll("svg").remove()
+    d3.select("#bar-chart-container").style("display", "block");
+
+    
+
+    var chartContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var margin = { top: 50, right: 50, bottom: 130, left: 70 };
+    var plotWidth = width - margin.left - margin.right;
+    var plotHeight = height - margin.top - margin.bottom;
+
+    var xScale = d3.scaleBand()
+        .domain(teams.map(function (team) { return team.Club; }))
+        .range([margin.left, margin.left + plotWidth])
+        .padding(0.1);
+
+    var yScale = d3.scaleLinear()
+        .domain([0, d3.max(teams, function (team) { return team.Titles; })])
+        .range([margin.top + plotHeight, margin.top]);
+
+    var xAxis = d3.axisBottom(xScale);
+    var yAxis = d3.axisLeft(yScale);
+
+
+    chartContainer.selectAll(".bar")
+        .data(teams)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", function (team) { return xScale(team.Club); })
+        .attr("y", function () { return yScale(0); })
+        .attr("width", xScale.bandwidth())
+        .attr("height", function () { return 0; })
+        .on("mousemove", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "visible")
+                .style("top", (event.pageY - 10) + "px")
+                .style("left", (event.pageX + 10) + "px");
+            tooltip.select("#tooltip-club").text(d.Club);
+            tooltip.select("#tooltip-played").text("Team Titles: " + d.Titles);
+        })
+        .on("mouseout", function () {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+        });
+
+    chartContainer.selectAll(".bar")
+        .transition()
+        .duration(800)
+        .delay(function (team, index) { return index * 100; })
+        .attr("y", function (team) { return yScale(team.Titles); })
+        .attr("height", function (team) { return plotHeight - (yScale(team.Titles) - margin.top); });
+
+
+
+
+
+    chartContainer.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
+        .call(xAxis)
+        .selectAll("text")
+        .attr("class", "bar-label")
+        .style("text-anchor", "end")
+        .attr("dx", "-0.5em")
+        .attr("dy", "-0.5em")
+        .attr("transform", "rotate(-45)");
+
+    chartContainer.append("g")
+        .attr("class", "y-axis")
+        .attr("transform", "translate(" + margin.left + ",0)")
+        .call(yAxis);
+
+    chartContainer.append("text")
+        .attr("class", "chart-title")
+        .attr("x", width / 2)
+        .attr("y", margin.top / 2)
+        .style("text-anchor", "middle")
+        .text("Number of Titles  by clubs in " + teams[0].Country);
+
+    var pieWidth = 400;
+    var pieHeight = 300;
+    var radius = Math.min(pieWidth, pieHeight) / 2;
+
+    var pieContainer = d3.select("#bar-chart-container")
+        .append("svg")
+        .attr("width", pieWidth)
+        .attr("height", pieHeight + 100)
+        .style("display", "none");
+
+    var arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+    var pie = d3.pie()
+        .value(function (d) { return d.value; })
+        .sort(null);
+
+    function displayPieChart(team) {
+        pieContainer.selectAll("g").remove();
+        pieContainer.selectAll(".chart-title").remove();
+
+        var pieGroup = pieContainer.append("g")
+            .attr("transform", "translate(" + pieWidth / 2 + "," + (pieHeight / 2 + 70) + ")"); 
+
+
+        var pieData = [
+            { label: "Wins", value: team.Win },
+            { label: "Draws", value: team.Draw },
+            { label: "Losses", value: team.Loss }
+        ];
+
+        var slices = pieGroup.selectAll(".slice")
+            .data(pie(pieData))
+            .enter()
+            .append("g")
+            .attr("class", "slice");
+
+        slices.append("path")
+            .attr("d", arc)
+            .attr("fill", function (d) { return d.data.label === "Wins" ? "green" : (d.data.label === "Draws" ? "gray" : "red"); });
+
+        slices.append("text")
+            .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .text(function (d) { return d.data.label + ": " + d.data.value; });
+
+            pieContainer.append("text")
+            .attr("class", "chart-title")
+            .attr("x", pieWidth/2)
+            .attr("y", 20 )
+            .style("text-anchor", "middle")
+            .text(team.Club);
+    }
+
+    chartContainer.selectAll(".bar")
+        .on("click", function (event, d) {
+            var tooltip = d3.select("#tooltip");
+            tooltip.style("visibility", "hidden");
+
+            var pieChartVisible = pieContainer.style("display") !== "none";
+
+            if (pieChartVisible) {
+                pieContainer.style("display", "none");
+            } else {
+                displayPieChart(d);
+                pieContainer.style("display", "block");
+            }
+        });
+
+
+        
+
+
+    
+
+    d3.select(".back-button")
+        .on("click", function () {
+            d3.select("#map-container").style("display", "block");
+            d3.select("#bar-chart-container").style("display", "none");
+                chartContainer.remove
+
+        });
+}
 
             countries.on("click", function (event, d) {
                 var countryName = d.properties.name_en;

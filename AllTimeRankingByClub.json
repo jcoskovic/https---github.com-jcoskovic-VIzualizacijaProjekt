@@ -9,7 +9,7 @@
     "Win": 277,
     "Draw": 79,
     "Loss": 108,
-    "Goals For": 1021,
+    "Goals_For": 1021,
     "Goals Against": 508,
     "Pts": 633,
     "Goal Diff": 513
@@ -24,7 +24,7 @@
     "Win": 221,
     "Draw": 75,
     "Loss": 76,
-    "Goals For": 782,
+    "Goals_For": 782,
     "Goals Against": 367,
     "Pts": 517,
     "Goal Diff": 415
@@ -39,7 +39,7 @@
     "Win": 195,
     "Draw": 75,
     "Loss": 63,
-    "Goals For": 655,
+    "Goals_For": 655,
     "Goals Against": 331,
     "Pts": 465,
     "Goal Diff": 324
@@ -54,7 +54,7 @@
     "Win": 160,
     "Draw": 69,
     "Loss": 64,
-    "Goals For": 533,
+    "Goals_For": 533,
     "Goals Against": 284,
     "Pts": 389,
     "Goal Diff": 249
@@ -69,7 +69,7 @@
     "Win": 152,
     "Draw": 70,
     "Loss": 73,
-    "Goals For": 470,
+    "Goals_For": 470,
     "Goals Against": 288,
     "Pts": 374,
     "Goal Diff": 182
@@ -84,7 +84,7 @@
     "Win": 137,
     "Draw": 50,
     "Loss": 53,
-    "Goals For": 453,
+    "Goals_For": 453,
     "Goals Against": 216,
     "Pts": 324,
     "Goal Diff": 237
@@ -99,7 +99,7 @@
     "Win": 126,
     "Draw": 65,
     "Loss": 64,
-    "Goals For": 422,
+    "Goals_For": 422,
     "Goals Against": 240,
     "Pts": 317,
     "Goal Diff": 182
@@ -114,7 +114,7 @@
     "Win": 120,
     "Draw": 64,
     "Loss": 89,
-    "Goals For": 437,
+    "Goals_For": 437,
     "Goals Against": 319,
     "Pts": 304,
     "Goal Diff": 118
@@ -129,7 +129,7 @@
     "Win": 117,
     "Draw": 60,
     "Loss": 84,
-    "Goals For": 383,
+    "Goals_For": 383,
     "Goals Against": 296,
     "Pts": 294,
     "Goal Diff": 87
@@ -144,7 +144,7 @@
     "Win": 110,
     "Draw": 64,
     "Loss": 67,
-    "Goals For": 385,
+    "Goals_For": 385,
     "Goals Against": 266,
     "Pts": 284,
     "Goal Diff": 119
@@ -159,7 +159,7 @@
     "Win": 101,
     "Draw": 54,
     "Loss": 93,
-    "Goals For": 345,
+    "Goals_For": 345,
     "Goals Against": 308,
     "Pts": 256,
     "Goal Diff": 37
@@ -174,7 +174,7 @@
     "Win": 99,
     "Draw": 52,
     "Loss": 40,
-    "Goals For": 330,
+    "Goals_For": 330,
     "Goals Against": 172,
     "Pts": 250,
     "Goal Diff": 158
@@ -189,7 +189,7 @@
     "Win": 101,
     "Draw": 43,
     "Loss": 57,
-    "Goals For": 332,
+    "Goals_For": 332,
     "Goals Against": 218,
     "Pts": 245,
     "Goal Diff": 114
@@ -204,7 +204,7 @@
     "Win": 101,
     "Draw": 37,
     "Loss": 78,
-    "Goals For": 333,
+    "Goals_For": 333,
     "Goals Against": 255,
     "Pts": 239,
     "Goal Diff": 78
@@ -219,7 +219,7 @@
     "Win": 91,
     "Draw": 51,
     "Loss": 50,
-    "Goals For": 271,
+    "Goals_For": 271,
     "Goals Against": 193,
     "Pts": 233,
     "Goal Diff": 78
@@ -234,7 +234,7 @@
     "Win": 75,
     "Draw": 40,
     "Loss": 39,
-    "Goals For": 221,
+    "Goals_For": 221,
     "Goals Against": 143,
     "Pts": 190,
     "Goal Diff": 78
@@ -249,7 +249,7 @@
     "Win": 78,
     "Draw": 30,
     "Loss": 54,
-    "Goals For": 276,
+    "Goals_For": 276,
     "Goals Against": 207,
     "Pts": 186,
     "Goal Diff": 69
@@ -264,7 +264,7 @@
     "Win": 70,
     "Draw": 44,
     "Loss": 86,
-    "Goals For": 282,
+    "Goals_For": 282,
     "Goals Against": 320,
     "Pts": 184,
     "Goal Diff": -38
@@ -279,7 +279,7 @@
     "Win": 68,
     "Draw": 42,
     "Loss": 73,
-    "Goals For": 243,
+    "Goals_For": 243,
     "Goals Against": 228,
     "Pts": 178,
     "Goal Diff": 15
@@ -294,7 +294,7 @@
     "Win": 73,
     "Draw": 25,
     "Loss": 37,
-    "Goals For": 267,
+    "Goals_For": 267,
     "Goals Against": 156,
     "Pts": 171,
     "Goal Diff": 111
@@ -309,7 +309,7 @@
     "Win": 68,
     "Draw": 32,
     "Loss": 47,
-    "Goals For": 267,
+    "Goals_For": 267,
     "Goals Against": 198,
     "Pts": 168,
     "Goal Diff": 69
@@ -324,7 +324,7 @@
     "Win": 65,
     "Draw": 37,
     "Loss": 46,
-    "Goals For": 232,
+    "Goals_For": 232,
     "Goals Against": 178,
     "Pts": 167,
     "Goal Diff": 54
@@ -339,7 +339,7 @@
     "Win": 66,
     "Draw": 35,
     "Loss": 83,
-    "Goals For": 221,
+    "Goals_For": 221,
     "Goals Against": 278,
     "Pts": 167,
     "Goal Diff": -57
@@ -354,7 +354,7 @@
     "Win": 62,
     "Draw": 40,
     "Loss": 61,
-    "Goals For": 234,
+    "Goals_For": 234,
     "Goals Against": 222,
     "Pts": 164,
     "Goal Diff": 12
@@ -369,7 +369,7 @@
     "Win": 57,
     "Draw": 43,
     "Loss": 77,
-    "Goals For": 215,
+    "Goals_For": 215,
     "Goals Against": 279,
     "Pts": 157,
     "Goal Diff": -64
@@ -384,7 +384,7 @@
     "Win": 60,
     "Draw": 30,
     "Loss": 54,
-    "Goals For": 213,
+    "Goals_For": 213,
     "Goals Against": 199,
     "Pts": 150,
     "Goal Diff": 14
@@ -399,7 +399,7 @@
     "Win": 57,
     "Draw": 35,
     "Loss": 36,
-    "Goals For": 191,
+    "Goals_For": 191,
     "Goals Against": 130,
     "Pts": 149,
     "Goal Diff": 61
@@ -414,7 +414,7 @@
     "Win": 58,
     "Draw": 31,
     "Loss": 63,
-    "Goals For": 224,
+    "Goals_For": 224,
     "Goals Against": 232,
     "Pts": 147,
     "Goal Diff": -8
@@ -429,7 +429,7 @@
     "Win": 57,
     "Draw": 33,
     "Loss": 56,
-    "Goals For": 206,
+    "Goals_For": 206,
     "Goals Against": 221,
     "Pts": 147,
     "Goal Diff": -15
@@ -444,7 +444,7 @@
     "Win": 52,
     "Draw": 41,
     "Loss": 52,
-    "Goals For": 203,
+    "Goals_For": 203,
     "Goals Against": 204,
     "Pts": 145,
     "Goal Diff": -1
@@ -459,7 +459,7 @@
     "Win": 49,
     "Draw": 45,
     "Loss": 63,
-    "Goals For": 182,
+    "Goals_For": 182,
     "Goals Against": 214,
     "Pts": 143,
     "Goal Diff": -32
@@ -474,7 +474,7 @@
     "Win": 54,
     "Draw": 30,
     "Loss": 62,
-    "Goals For": 190,
+    "Goals_For": 190,
     "Goals Against": 203,
     "Pts": 138,
     "Goal Diff": -13
@@ -489,7 +489,7 @@
     "Win": 58,
     "Draw": 19,
     "Loss": 29,
-    "Goals For": 213,
+    "Goals_For": 213,
     "Goals Against": 126,
     "Pts": 135,
     "Goal Diff": 87
@@ -504,7 +504,7 @@
     "Win": 47,
     "Draw": 23,
     "Loss": 48,
-    "Goals For": 170,
+    "Goals_For": 170,
     "Goals Against": 192,
     "Pts": 117,
     "Goal Diff": -22
@@ -519,7 +519,7 @@
     "Win": 46,
     "Draw": 23,
     "Loss": 47,
-    "Goals For": 182,
+    "Goals_For": 182,
     "Goals Against": 155,
     "Pts": 115,
     "Goal Diff": 27
@@ -534,7 +534,7 @@
     "Win": 40,
     "Draw": 31,
     "Loss": 53,
-    "Goals For": 173,
+    "Goals_For": 173,
     "Goals Against": 193,
     "Pts": 111,
     "Goal Diff": -20
@@ -549,7 +549,7 @@
     "Win": 41,
     "Draw": 27,
     "Loss": 42,
-    "Goals For": 148,
+    "Goals_For": 148,
     "Goals Against": 158,
     "Pts": 109,
     "Goal Diff": -10
@@ -564,7 +564,7 @@
     "Win": 42,
     "Draw": 24,
     "Loss": 45,
-    "Goals For": 167,
+    "Goals_For": 167,
     "Goals Against": 172,
     "Pts": 108,
     "Goal Diff": -5
@@ -579,7 +579,7 @@
     "Win": 40,
     "Draw": 28,
     "Loss": 51,
-    "Goals For": 149,
+    "Goals_For": 149,
     "Goals Against": 175,
     "Pts": 108,
     "Goal Diff": -26
@@ -594,7 +594,7 @@
     "Win": 44,
     "Draw": 19,
     "Loss": 45,
-    "Goals For": 153,
+    "Goals_For": 153,
     "Goals Against": 131,
     "Pts": 107,
     "Goal Diff": 22
@@ -609,7 +609,7 @@
     "Win": 41,
     "Draw": 24,
     "Loss": 40,
-    "Goals For": 161,
+    "Goals_For": 161,
     "Goals Against": 133,
     "Pts": 106,
     "Goal Diff": 28
@@ -624,7 +624,7 @@
     "Win": 36,
     "Draw": 30,
     "Loss": 34,
-    "Goals For": 111,
+    "Goals_For": 111,
     "Goals Against": 138,
     "Pts": 102,
     "Goal Diff": -27
@@ -639,7 +639,7 @@
     "Win": 41,
     "Draw": 16,
     "Loss": 41,
-    "Goals For": 140,
+    "Goals_For": 140,
     "Goals Against": 144,
     "Pts": 98,
     "Goal Diff": -4
@@ -654,7 +654,7 @@
     "Win": 37,
     "Draw": 19,
     "Loss": 30,
-    "Goals For": 123,
+    "Goals_For": 123,
     "Goals Against": 100,
     "Pts": 93,
     "Goal Diff": 23
@@ -669,7 +669,7 @@
     "Win": 34,
     "Draw": 24,
     "Loss": 46,
-    "Goals For": 125,
+    "Goals_For": 125,
     "Goals Against": 155,
     "Pts": 92,
     "Goal Diff": -30
@@ -684,7 +684,7 @@
     "Win": 34,
     "Draw": 23,
     "Loss": 32,
-    "Goals For": 147,
+    "Goals_For": 147,
     "Goals Against": 116,
     "Pts": 91,
     "Goal Diff": 31
@@ -699,7 +699,7 @@
     "Win": 37,
     "Draw": 15,
     "Loss": 24,
-    "Goals For": 106,
+    "Goals_For": 106,
     "Goals Against": 91,
     "Pts": 89,
     "Goal Diff": 15
@@ -714,7 +714,7 @@
     "Win": 34,
     "Draw": 19,
     "Loss": 27,
-    "Goals For": 120,
+    "Goals_For": 120,
     "Goals Against": 106,
     "Pts": 87,
     "Goal Diff": 14
@@ -729,7 +729,7 @@
     "Win": 32,
     "Draw": 22,
     "Loss": 37,
-    "Goals For": 97,
+    "Goals_For": 97,
     "Goals Against": 140,
     "Pts": 86,
     "Goal Diff": -43
@@ -744,7 +744,7 @@
     "Win": 32,
     "Draw": 20,
     "Loss": 53,
-    "Goals For": 119,
+    "Goals_For": 119,
     "Goals Against": 177,
     "Pts": 84,
     "Goal Diff": -58
@@ -759,7 +759,7 @@
     "Win": 35,
     "Draw": 13,
     "Loss": 34,
-    "Goals For": 138,
+    "Goals_For": 138,
     "Goals Against": 119,
     "Pts": 83,
     "Goal Diff": 19
@@ -774,7 +774,7 @@
     "Win": 29,
     "Draw": 25,
     "Loss": 40,
-    "Goals For": 99,
+    "Goals_For": 99,
     "Goals Against": 122,
     "Pts": 83,
     "Goal Diff": -23
@@ -789,7 +789,7 @@
     "Win": 31,
     "Draw": 18,
     "Loss": 28,
-    "Goals For": 109,
+    "Goals_For": 109,
     "Goals Against": 117,
     "Pts": 80,
     "Goal Diff": -8
@@ -804,7 +804,7 @@
     "Win": 31,
     "Draw": 18,
     "Loss": 29,
-    "Goals For": 92,
+    "Goals_For": 92,
     "Goals Against": 110,
     "Pts": 80,
     "Goal Diff": -18
@@ -819,7 +819,7 @@
     "Win": 35,
     "Draw": 9,
     "Loss": 37,
-    "Goals For": 130,
+    "Goals_For": 130,
     "Goals Against": 122,
     "Pts": 79,
     "Goal Diff": 8
@@ -834,7 +834,7 @@
     "Win": 31,
     "Draw": 17,
     "Loss": 36,
-    "Goals For": 90,
+    "Goals_For": 90,
     "Goals Against": 89,
     "Pts": 79,
     "Goal Diff": 1
@@ -849,7 +849,7 @@
     "Win": 29,
     "Draw": 21,
     "Loss": 50,
-    "Goals For": 132,
+    "Goals_For": 132,
     "Goals Against": 169,
     "Pts": 79,
     "Goal Diff": -37
@@ -864,7 +864,7 @@
     "Win": 29,
     "Draw": 17,
     "Loss": 20,
-    "Goals For": 104,
+    "Goals_For": 104,
     "Goals Against": 91,
     "Pts": 75,
     "Goal Diff": 13
@@ -879,7 +879,7 @@
     "Win": 30,
     "Draw": 15,
     "Loss": 31,
-    "Goals For": 98,
+    "Goals_For": 98,
     "Goals Against": 96,
     "Pts": 75,
     "Goal Diff": 2
@@ -894,7 +894,7 @@
     "Win": 27,
     "Draw": 19,
     "Loss": 43,
-    "Goals For": 89,
+    "Goals_For": 89,
     "Goals Against": 153,
     "Pts": 73,
     "Goal Diff": -64
@@ -909,7 +909,7 @@
     "Win": 28,
     "Draw": 13,
     "Loss": 35,
-    "Goals For": 101,
+    "Goals_For": 101,
     "Goals Against": 117,
     "Pts": 69,
     "Goal Diff": -16
@@ -924,7 +924,7 @@
     "Win": 27,
     "Draw": 14,
     "Loss": 25,
-    "Goals For": 109,
+    "Goals_For": 109,
     "Goals Against": 107,
     "Pts": 68,
     "Goal Diff": 2
@@ -939,7 +939,7 @@
     "Win": 25,
     "Draw": 17,
     "Loss": 20,
-    "Goals For": 78,
+    "Goals_For": 78,
     "Goals Against": 79,
     "Pts": 67,
     "Goal Diff": -1
@@ -954,7 +954,7 @@
     "Win": 25,
     "Draw": 16,
     "Loss": 32,
-    "Goals For": 100,
+    "Goals_For": 100,
     "Goals Against": 110,
     "Pts": 66,
     "Goal Diff": -10
@@ -969,7 +969,7 @@
     "Win": 24,
     "Draw": 16,
     "Loss": 20,
-    "Goals For": 93,
+    "Goals_For": 93,
     "Goals Against": 77,
     "Pts": 64,
     "Goal Diff": 16
@@ -984,7 +984,7 @@
     "Win": 24,
     "Draw": 16,
     "Loss": 23,
-    "Goals For": 99,
+    "Goals_For": 99,
     "Goals Against": 109,
     "Pts": 64,
     "Goal Diff": -10
@@ -999,7 +999,7 @@
     "Win": 22,
     "Draw": 16,
     "Loss": 17,
-    "Goals For": 110,
+    "Goals_For": 110,
     "Goals Against": 74,
     "Pts": 60,
     "Goal Diff": 36
@@ -1014,7 +1014,7 @@
     "Win": 25,
     "Draw": 10,
     "Loss": 20,
-    "Goals For": 108,
+    "Goals_For": 108,
     "Goals Against": 83,
     "Pts": 60,
     "Goal Diff": 25
@@ -1029,7 +1029,7 @@
     "Win": 25,
     "Draw": 10,
     "Loss": 23,
-    "Goals For": 87,
+    "Goals_For": 87,
     "Goals Against": 73,
     "Pts": 60,
     "Goal Diff": 14
@@ -1044,7 +1044,7 @@
     "Win": 22,
     "Draw": 15,
     "Loss": 15,
-    "Goals For": 80,
+    "Goals_For": 80,
     "Goals Against": 65,
     "Pts": 59,
     "Goal Diff": 15
@@ -1059,7 +1059,7 @@
     "Win": 21,
     "Draw": 16,
     "Loss": 13,
-    "Goals For": 54,
+    "Goals_For": 54,
     "Goals Against": 54,
     "Pts": 58,
     "Goal Diff": 0
@@ -1074,7 +1074,7 @@
     "Win": 24,
     "Draw": 10,
     "Loss": 32,
-    "Goals For": 96,
+    "Goals_For": 96,
     "Goals Against": 106,
     "Pts": 58,
     "Goal Diff": -10
@@ -1089,7 +1089,7 @@
     "Win": 18,
     "Draw": 22,
     "Loss": 34,
-    "Goals For": 79,
+    "Goals_For": 79,
     "Goals Against": 118,
     "Pts": 58,
     "Goal Diff": -39
@@ -1104,7 +1104,7 @@
     "Win": 21,
     "Draw": 15,
     "Loss": 9,
-    "Goals For": 63,
+    "Goals_For": 63,
     "Goals Against": 49,
     "Pts": 57,
     "Goal Diff": 14
@@ -1119,7 +1119,7 @@
     "Win": 22,
     "Draw": 10,
     "Loss": 13,
-    "Goals For": 75,
+    "Goals_For": 75,
     "Goals Against": 58,
     "Pts": 54,
     "Goal Diff": 17
@@ -1134,7 +1134,7 @@
     "Win": 19,
     "Draw": 15,
     "Loss": 23,
-    "Goals For": 77,
+    "Goals_For": 77,
     "Goals Against": 109,
     "Pts": 53,
     "Goal Diff": -32
@@ -1149,7 +1149,7 @@
     "Win": 19,
     "Draw": 14,
     "Loss": 21,
-    "Goals For": 80,
+    "Goals_For": 80,
     "Goals Against": 76,
     "Pts": 52,
     "Goal Diff": 4
@@ -1164,7 +1164,7 @@
     "Win": 22,
     "Draw": 6,
     "Loss": 12,
-    "Goals For": 76,
+    "Goals_For": 76,
     "Goals Against": 41,
     "Pts": 50,
     "Goal Diff": 35
@@ -1179,7 +1179,7 @@
     "Win": 19,
     "Draw": 9,
     "Loss": 15,
-    "Goals For": 72,
+    "Goals_For": 72,
     "Goals Against": 56,
     "Pts": 47,
     "Goal Diff": 16
@@ -1194,7 +1194,7 @@
     "Win": 16,
     "Draw": 14,
     "Loss": 9,
-    "Goals For": 43,
+    "Goals_For": 43,
     "Goals Against": 30,
     "Pts": 46,
     "Goal Diff": 13
@@ -1209,7 +1209,7 @@
     "Win": 18,
     "Draw": 10,
     "Loss": 12,
-    "Goals For": 58,
+    "Goals_For": 58,
     "Goals Against": 47,
     "Pts": 46,
     "Goal Diff": 11
@@ -1224,7 +1224,7 @@
     "Win": 20,
     "Draw": 6,
     "Loss": 17,
-    "Goals For": 69,
+    "Goals_For": 69,
     "Goals Against": 65,
     "Pts": 46,
     "Goal Diff": 4
@@ -1239,7 +1239,7 @@
     "Win": 19,
     "Draw": 7,
     "Loss": 15,
-    "Goals For": 50,
+    "Goals_For": 50,
     "Goals Against": 44,
     "Pts": 45,
     "Goal Diff": 6
@@ -1254,7 +1254,7 @@
     "Win": 18,
     "Draw": 8,
     "Loss": 18,
-    "Goals For": 70,
+    "Goals_For": 70,
     "Goals Against": 72,
     "Pts": 44,
     "Goal Diff": -2
@@ -1269,7 +1269,7 @@
     "Win": 15,
     "Draw": 14,
     "Loss": 29,
-    "Goals For": 74,
+    "Goals_For": 74,
     "Goals Against": 82,
     "Pts": 44,
     "Goal Diff": -8
@@ -1284,7 +1284,7 @@
     "Win": 14,
     "Draw": 16,
     "Loss": 26,
-    "Goals For": 49,
+    "Goals_For": 49,
     "Goals Against": 63,
     "Pts": 44,
     "Goal Diff": -14
@@ -1299,7 +1299,7 @@
     "Win": 14,
     "Draw": 15,
     "Loss": 17,
-    "Goals For": 51,
+    "Goals_For": 51,
     "Goals Against": 56,
     "Pts": 43,
     "Goal Diff": -5
@@ -1314,7 +1314,7 @@
     "Win": 17,
     "Draw": 8,
     "Loss": 16,
-    "Goals For": 64,
+    "Goals_For": 64,
     "Goals Against": 77,
     "Pts": 42,
     "Goal Diff": -13
@@ -1329,7 +1329,7 @@
     "Win": 17,
     "Draw": 8,
     "Loss": 30,
-    "Goals For": 65,
+    "Goals_For": 65,
     "Goals Against": 112,
     "Pts": 42,
     "Goal Diff": -47
@@ -1344,7 +1344,7 @@
     "Win": 15,
     "Draw": 11,
     "Loss": 28,
-    "Goals For": 80,
+    "Goals_For": 80,
     "Goals Against": 85,
     "Pts": 41,
     "Goal Diff": -5
@@ -1359,7 +1359,7 @@
     "Win": 16,
     "Draw": 8,
     "Loss": 16,
-    "Goals For": 52,
+    "Goals_For": 52,
     "Goals Against": 52,
     "Pts": 40,
     "Goal Diff": 0
@@ -1374,7 +1374,7 @@
     "Win": 15,
     "Draw": 10,
     "Loss": 22,
-    "Goals For": 50,
+    "Goals_For": 50,
     "Goals Against": 63,
     "Pts": 40,
     "Goal Diff": -13
@@ -1389,7 +1389,7 @@
     "Win": 15,
     "Draw": 9,
     "Loss": 6,
-    "Goals For": 50,
+    "Goals_For": 50,
     "Goals Against": 25,
     "Pts": 39,
     "Goal Diff": 25
@@ -1404,7 +1404,7 @@
     "Win": 17,
     "Draw": 5,
     "Loss": 23,
-    "Goals For": 56,
+    "Goals_For": 56,
     "Goals Against": 77,
     "Pts": 39,
     "Goal Diff": -21
@@ -1419,7 +1419,7 @@
     "Win": 14,
     "Draw": 11,
     "Loss": 32,
-    "Goals For": 56,
+    "Goals_For": 56,
     "Goals Against": 84,
     "Pts": 39,
     "Goal Diff": -28
@@ -1434,7 +1434,7 @@
     "Win": 8,
     "Draw": 23,
     "Loss": 42,
-    "Goals For": 60,
+    "Goals_For": 60,
     "Goals Against": 130,
     "Pts": 39,
     "Goal Diff": -70
@@ -1449,7 +1449,7 @@
     "Win": 15,
     "Draw": 8,
     "Loss": 15,
-    "Goals For": 54,
+    "Goals_For": 54,
     "Goals Against": 52,
     "Pts": 38,
     "Goal Diff": 2
@@ -1464,7 +1464,7 @@
     "Win": 12,
     "Draw": 14,
     "Loss": 14,
-    "Goals For": 52,
+    "Goals_For": 52,
     "Goals Against": 54,
     "Pts": 38,
     "Goal Diff": -2
@@ -1479,7 +1479,7 @@
     "Win": 16,
     "Draw": 6,
     "Loss": 20,
-    "Goals For": 57,
+    "Goals_For": 57,
     "Goals Against": 62,
     "Pts": 38,
     "Goal Diff": -5
@@ -1494,7 +1494,7 @@
     "Win": 14,
     "Draw": 10,
     "Loss": 16,
-    "Goals For": 45,
+    "Goals_For": 45,
     "Goals Against": 52,
     "Pts": 38,
     "Goal Diff": -7
@@ -1509,7 +1509,7 @@
     "Win": 15,
     "Draw": 8,
     "Loss": 21,
-    "Goals For": 56,
+    "Goals_For": 56,
     "Goals Against": 67,
     "Pts": 38,
     "Goal Diff": -11
@@ -1524,7 +1524,7 @@
     "Win": 13,
     "Draw": 12,
     "Loss": 21,
-    "Goals For": 34,
+    "Goals_For": 34,
     "Goals Against": 63,
     "Pts": 38,
     "Goal Diff": -29
@@ -1539,7 +1539,7 @@
     "Win": 15,
     "Draw": 7,
     "Loss": 20,
-    "Goals For": 50,
+    "Goals_For": 50,
     "Goals Against": 78,
     "Pts": 37,
     "Goal Diff": -28
@@ -1554,7 +1554,7 @@
     "Win": 14,
     "Draw": 7,
     "Loss": 19,
-    "Goals For": 67,
+    "Goals_For": 67,
     "Goals Against": 60,
     "Pts": 35,
     "Goal Diff": 7
@@ -1569,7 +1569,7 @@
     "Win": 15,
     "Draw": 4,
     "Loss": 13,
-    "Goals For": 58,
+    "Goals_For": 58,
     "Goals Against": 50,
     "Pts": 34,
     "Goal Diff": 8
@@ -1584,7 +1584,7 @@
     "Win": 12,
     "Draw": 9,
     "Loss": 15,
-    "Goals For": 47,
+    "Goals_For": 47,
     "Goals Against": 44,
     "Pts": 33,
     "Goal Diff": 3
@@ -1599,7 +1599,7 @@
     "Win": 14,
     "Draw": 4,
     "Loss": 12,
-    "Goals For": 52,
+    "Goals_For": 52,
     "Goals Against": 53,
     "Pts": 32,
     "Goal Diff": -1
@@ -1614,7 +1614,7 @@
     "Win": 14,
     "Draw": 4,
     "Loss": 21,
-    "Goals For": 52,
+    "Goals_For": 52,
     "Goals Against": 58,
     "Pts": 32,
     "Goal Diff": -6
@@ -1629,7 +1629,7 @@
     "Win": 11,
     "Draw": 10,
     "Loss": 10,
-    "Goals For": 37,
+    "Goals_For": 37,
     "Goals Against": 45,
     "Pts": 32,
     "Goal Diff": -8
@@ -1644,7 +1644,7 @@
     "Win": 14,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 63,
+    "Goals_For": 63,
     "Goals Against": 30,
     "Pts": 31,
     "Goal Diff": 33
@@ -1659,7 +1659,7 @@
     "Win": 12,
     "Draw": 6,
     "Loss": 9,
-    "Goals For": 62,
+    "Goals_For": 62,
     "Goals Against": 34,
     "Pts": 30,
     "Goal Diff": 28
@@ -1674,7 +1674,7 @@
     "Win": 12,
     "Draw": 6,
     "Loss": 12,
-    "Goals For": 48,
+    "Goals_For": 48,
     "Goals Against": 44,
     "Pts": 30,
     "Goal Diff": 4
@@ -1689,7 +1689,7 @@
     "Win": 12,
     "Draw": 4,
     "Loss": 4,
-    "Goals For": 32,
+    "Goals_For": 32,
     "Goals Against": 14,
     "Pts": 28,
     "Goal Diff": 18
@@ -1704,7 +1704,7 @@
     "Win": 11,
     "Draw": 6,
     "Loss": 11,
-    "Goals For": 41,
+    "Goals_For": 41,
     "Goals Against": 39,
     "Pts": 28,
     "Goal Diff": 2
@@ -1719,7 +1719,7 @@
     "Win": 10,
     "Draw": 8,
     "Loss": 10,
-    "Goals For": 38,
+    "Goals_For": 38,
     "Goals Against": 36,
     "Pts": 28,
     "Goal Diff": 2
@@ -1734,7 +1734,7 @@
     "Win": 8,
     "Draw": 11,
     "Loss": 8,
-    "Goals For": 39,
+    "Goals_For": 39,
     "Goals Against": 30,
     "Pts": 27,
     "Goal Diff": 9
@@ -1749,7 +1749,7 @@
     "Win": 12,
     "Draw": 3,
     "Loss": 15,
-    "Goals For": 47,
+    "Goals_For": 47,
     "Goals Against": 54,
     "Pts": 27,
     "Goal Diff": -7
@@ -1764,7 +1764,7 @@
     "Win": 10,
     "Draw": 7,
     "Loss": 11,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 34,
     "Pts": 27,
     "Goal Diff": -10
@@ -1779,7 +1779,7 @@
     "Win": 11,
     "Draw": 5,
     "Loss": 16,
-    "Goals For": 37,
+    "Goals_For": 37,
     "Goals Against": 50,
     "Pts": 27,
     "Goal Diff": -13
@@ -1794,7 +1794,7 @@
     "Win": 9,
     "Draw": 8,
     "Loss": 12,
-    "Goals For": 35,
+    "Goals_For": 35,
     "Goals Against": 42,
     "Pts": 26,
     "Goal Diff": -7
@@ -1809,7 +1809,7 @@
     "Win": 11,
     "Draw": 3,
     "Loss": 10,
-    "Goals For": 33,
+    "Goals_For": 33,
     "Goals Against": 33,
     "Pts": 25,
     "Goal Diff": 0
@@ -1824,7 +1824,7 @@
     "Win": 10,
     "Draw": 3,
     "Loss": 9,
-    "Goals For": 29,
+    "Goals_For": 29,
     "Goals Against": 29,
     "Pts": 23,
     "Goal Diff": 0
@@ -1839,7 +1839,7 @@
     "Win": 9,
     "Draw": 5,
     "Loss": 14,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 45,
     "Pts": 23,
     "Goal Diff": -18
@@ -1854,7 +1854,7 @@
     "Win": 8,
     "Draw": 7,
     "Loss": 17,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 51,
     "Pts": 23,
     "Goal Diff": -24
@@ -1869,7 +1869,7 @@
     "Win": 9,
     "Draw": 5,
     "Loss": 22,
-    "Goals For": 36,
+    "Goals_For": 36,
     "Goals Against": 63,
     "Pts": 23,
     "Goal Diff": -27
@@ -1884,7 +1884,7 @@
     "Win": 8,
     "Draw": 7,
     "Loss": 31,
-    "Goals For": 38,
+    "Goals_For": 38,
     "Goals Against": 113,
     "Pts": 23,
     "Goal Diff": -75
@@ -1899,7 +1899,7 @@
     "Win": 7,
     "Draw": 8,
     "Loss": 2,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 19,
     "Pts": 22,
     "Goal Diff": 8
@@ -1914,7 +1914,7 @@
     "Win": 8,
     "Draw": 6,
     "Loss": 9,
-    "Goals For": 40,
+    "Goals_For": 40,
     "Goals Against": 43,
     "Pts": 22,
     "Goal Diff": -3
@@ -1929,7 +1929,7 @@
     "Win": 10,
     "Draw": 2,
     "Loss": 12,
-    "Goals For": 41,
+    "Goals_For": 41,
     "Goals Against": 46,
     "Pts": 22,
     "Goal Diff": -5
@@ -1944,7 +1944,7 @@
     "Win": 7,
     "Draw": 8,
     "Loss": 9,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 32,
     "Pts": 22,
     "Goal Diff": -5
@@ -1959,7 +1959,7 @@
     "Win": 8,
     "Draw": 6,
     "Loss": 12,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 29,
     "Pts": 22,
     "Goal Diff": -5
@@ -1974,7 +1974,7 @@
     "Win": 9,
     "Draw": 3,
     "Loss": 3,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 10,
     "Pts": 21,
     "Goal Diff": 14
@@ -1989,7 +1989,7 @@
     "Win": 9,
     "Draw": 3,
     "Loss": 4,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 24,
     "Pts": 21,
     "Goal Diff": 3
@@ -2004,7 +2004,7 @@
     "Win": 10,
     "Draw": 1,
     "Loss": 13,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 38,
     "Pts": 21,
     "Goal Diff": -11
@@ -2019,7 +2019,7 @@
     "Win": 6,
     "Draw": 9,
     "Loss": 13,
-    "Goals For": 36,
+    "Goals_For": 36,
     "Goals Against": 49,
     "Pts": 21,
     "Goal Diff": -13
@@ -2034,7 +2034,7 @@
     "Win": 7,
     "Draw": 7,
     "Loss": 26,
-    "Goals For": 45,
+    "Goals_For": 45,
     "Goals Against": 87,
     "Pts": 21,
     "Goal Diff": -42
@@ -2049,7 +2049,7 @@
     "Win": 7,
     "Draw": 6,
     "Loss": 5,
-    "Goals For": 25,
+    "Goals_For": 25,
     "Goals Against": 24,
     "Pts": 20,
     "Goal Diff": 1
@@ -2064,7 +2064,7 @@
     "Win": 9,
     "Draw": 2,
     "Loss": 15,
-    "Goals For": 48,
+    "Goals_For": 48,
     "Goals Against": 51,
     "Pts": 20,
     "Goal Diff": -3
@@ -2079,7 +2079,7 @@
     "Win": 7,
     "Draw": 6,
     "Loss": 11,
-    "Goals For": 32,
+    "Goals_For": 32,
     "Goals Against": 41,
     "Pts": 20,
     "Goal Diff": -9
@@ -2094,7 +2094,7 @@
     "Win": 9,
     "Draw": 2,
     "Loss": 13,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 31,
     "Pts": 20,
     "Goal Diff": -12
@@ -2109,7 +2109,7 @@
     "Win": 8,
     "Draw": 4,
     "Loss": 15,
-    "Goals For": 37,
+    "Goals_For": 37,
     "Goals Against": 54,
     "Pts": 20,
     "Goal Diff": -17
@@ -2124,7 +2124,7 @@
     "Win": 8,
     "Draw": 4,
     "Loss": 26,
-    "Goals For": 36,
+    "Goals_For": 36,
     "Goals Against": 62,
     "Pts": 20,
     "Goal Diff": -26
@@ -2139,7 +2139,7 @@
     "Win": 4,
     "Draw": 12,
     "Loss": 17,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 60,
     "Pts": 20,
     "Goal Diff": -36
@@ -2154,7 +2154,7 @@
     "Win": 9,
     "Draw": 1,
     "Loss": 12,
-    "Goals For": 35,
+    "Goals_For": 35,
     "Goals Against": 33,
     "Pts": 19,
     "Goal Diff": 2
@@ -2169,7 +2169,7 @@
     "Win": 7,
     "Draw": 5,
     "Loss": 8,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 24,
     "Pts": 19,
     "Goal Diff": -3
@@ -2184,7 +2184,7 @@
     "Win": 7,
     "Draw": 5,
     "Loss": 10,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 36,
     "Pts": 19,
     "Goal Diff": -18
@@ -2199,7 +2199,7 @@
     "Win": 5,
     "Draw": 9,
     "Loss": 16,
-    "Goals For": 27,
+    "Goals_For": 27,
     "Goals Against": 65,
     "Pts": 19,
     "Goal Diff": -38
@@ -2214,7 +2214,7 @@
     "Win": 7,
     "Draw": 4,
     "Loss": 5,
-    "Goals For": 23,
+    "Goals_For": 23,
     "Goals Against": 18,
     "Pts": 18,
     "Goal Diff": 5
@@ -2229,7 +2229,7 @@
     "Win": 7,
     "Draw": 4,
     "Loss": 7,
-    "Goals For": 32,
+    "Goals_For": 32,
     "Goals Against": 32,
     "Pts": 18,
     "Goal Diff": 0
@@ -2244,7 +2244,7 @@
     "Win": 6,
     "Draw": 6,
     "Loss": 8,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 23,
     "Pts": 18,
     "Goal Diff": -3
@@ -2259,7 +2259,7 @@
     "Win": 6,
     "Draw": 6,
     "Loss": 9,
-    "Goals For": 32,
+    "Goals_For": 32,
     "Goals Against": 39,
     "Pts": 18,
     "Goal Diff": -7
@@ -2274,7 +2274,7 @@
     "Win": 5,
     "Draw": 8,
     "Loss": 11,
-    "Goals For": 30,
+    "Goals_For": 30,
     "Goals Against": 40,
     "Pts": 18,
     "Goal Diff": -10
@@ -2289,7 +2289,7 @@
     "Win": 7,
     "Draw": 4,
     "Loss": 38,
-    "Goals For": 43,
+    "Goals_For": 43,
     "Goals Against": 158,
     "Pts": 18,
     "Goal Diff": -115
@@ -2304,7 +2304,7 @@
     "Win": 8,
     "Draw": 1,
     "Loss": 7,
-    "Goals For": 29,
+    "Goals_For": 29,
     "Goals Against": 28,
     "Pts": 17,
     "Goal Diff": 1
@@ -2319,7 +2319,7 @@
     "Win": 6,
     "Draw": 5,
     "Loss": 5,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 19,
     "Pts": 17,
     "Goal Diff": 0
@@ -2334,7 +2334,7 @@
     "Win": 7,
     "Draw": 3,
     "Loss": 10,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 29,
     "Pts": 17,
     "Goal Diff": -11
@@ -2349,7 +2349,7 @@
     "Win": 5,
     "Draw": 7,
     "Loss": 12,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 35,
     "Pts": 17,
     "Goal Diff": -14
@@ -2364,7 +2364,7 @@
     "Win": 7,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 25,
+    "Goals_For": 25,
     "Goals Against": 15,
     "Pts": 16,
     "Goal Diff": 10
@@ -2379,7 +2379,7 @@
     "Win": 7,
     "Draw": 2,
     "Loss": 7,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 17,
     "Pts": 16,
     "Goal Diff": 7
@@ -2394,7 +2394,7 @@
     "Win": 6,
     "Draw": 4,
     "Loss": 8,
-    "Goals For": 22,
+    "Goals_For": 22,
     "Goals Against": 25,
     "Pts": 16,
     "Goal Diff": -3
@@ -2409,7 +2409,7 @@
     "Win": 7,
     "Draw": 2,
     "Loss": 9,
-    "Goals For": 23,
+    "Goals_For": 23,
     "Goals Against": 31,
     "Pts": 16,
     "Goal Diff": -8
@@ -2424,7 +2424,7 @@
     "Win": 4,
     "Draw": 8,
     "Loss": 8,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 31,
     "Pts": 16,
     "Goal Diff": -10
@@ -2439,7 +2439,7 @@
     "Win": 6,
     "Draw": 4,
     "Loss": 16,
-    "Goals For": 30,
+    "Goals_For": 30,
     "Goals Against": 56,
     "Pts": 16,
     "Goal Diff": -26
@@ -2454,7 +2454,7 @@
     "Win": 5,
     "Draw": 5,
     "Loss": 2,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 9,
     "Pts": 15,
     "Goal Diff": 9
@@ -2469,7 +2469,7 @@
     "Win": 6,
     "Draw": 3,
     "Loss": 3,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 10,
     "Pts": 15,
     "Goal Diff": 5
@@ -2484,7 +2484,7 @@
     "Win": 4,
     "Draw": 7,
     "Loss": 3,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 13,
     "Pts": 15,
     "Goal Diff": 0
@@ -2499,7 +2499,7 @@
     "Win": 4,
     "Draw": 7,
     "Loss": 5,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 16,
     "Pts": 15,
     "Goal Diff": -4
@@ -2514,7 +2514,7 @@
     "Win": 7,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 28,
+    "Goals_For": 28,
     "Goals Against": 34,
     "Pts": 15,
     "Goal Diff": -6
@@ -2529,7 +2529,7 @@
     "Win": 6,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 25,
     "Pts": 15,
     "Goal Diff": -7
@@ -2544,7 +2544,7 @@
     "Win": 6,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 29,
     "Pts": 15,
     "Goal Diff": -9
@@ -2559,7 +2559,7 @@
     "Win": 6,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 29,
     "Pts": 15,
     "Goal Diff": -9
@@ -2574,7 +2574,7 @@
     "Win": 6,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 12,
     "Pts": 14,
     "Goal Diff": 6
@@ -2589,7 +2589,7 @@
     "Win": 5,
     "Draw": 4,
     "Loss": 7,
-    "Goals For": 26,
+    "Goals_For": 26,
     "Goals Against": 23,
     "Pts": 14,
     "Goal Diff": 3
@@ -2604,7 +2604,7 @@
     "Win": 6,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 16,
     "Pts": 14,
     "Goal Diff": 2
@@ -2619,7 +2619,7 @@
     "Win": 5,
     "Draw": 4,
     "Loss": 3,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 12,
     "Pts": 14,
     "Goal Diff": 2
@@ -2634,7 +2634,7 @@
     "Win": 5,
     "Draw": 4,
     "Loss": 5,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 15,
     "Pts": 14,
     "Goal Diff": 0
@@ -2649,7 +2649,7 @@
     "Win": 5,
     "Draw": 4,
     "Loss": 5,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 25,
     "Pts": 14,
     "Goal Diff": -5
@@ -2664,7 +2664,7 @@
     "Win": 6,
     "Draw": 2,
     "Loss": 12,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 31,
     "Pts": 14,
     "Goal Diff": -10
@@ -2679,7 +2679,7 @@
     "Win": 5,
     "Draw": 4,
     "Loss": 17,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 68,
     "Pts": 14,
     "Goal Diff": -48
@@ -2694,7 +2694,7 @@
     "Win": 6,
     "Draw": 1,
     "Loss": 7,
-    "Goals For": 22,
+    "Goals_For": 22,
     "Goals Against": 17,
     "Pts": 13,
     "Goal Diff": 5
@@ -2709,7 +2709,7 @@
     "Win": 5,
     "Draw": 3,
     "Loss": 6,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 20,
     "Pts": 13,
     "Goal Diff": 1
@@ -2724,7 +2724,7 @@
     "Win": 5,
     "Draw": 3,
     "Loss": 4,
-    "Goals For": 16,
+    "Goals_For": 16,
     "Goals Against": 17,
     "Pts": 13,
     "Goal Diff": -1
@@ -2739,7 +2739,7 @@
     "Win": 5,
     "Draw": 3,
     "Loss": 9,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 26,
     "Pts": 13,
     "Goal Diff": -6
@@ -2754,7 +2754,7 @@
     "Win": 4,
     "Draw": 5,
     "Loss": 8,
-    "Goals For": 17,
+    "Goals_For": 17,
     "Goals Against": 30,
     "Pts": 13,
     "Goal Diff": -13
@@ -2769,7 +2769,7 @@
     "Win": 5,
     "Draw": 3,
     "Loss": 12,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 40,
     "Pts": 13,
     "Goal Diff": -21
@@ -2784,7 +2784,7 @@
     "Win": 3,
     "Draw": 7,
     "Loss": 18,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 59,
     "Pts": 13,
     "Goal Diff": -39
@@ -2799,7 +2799,7 @@
     "Win": 5,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 13,
     "Pts": 12,
     "Goal Diff": 6
@@ -2814,7 +2814,7 @@
     "Win": 4,
     "Draw": 4,
     "Loss": 4,
-    "Goals For": 21,
+    "Goals_For": 21,
     "Goals Against": 18,
     "Pts": 12,
     "Goal Diff": 3
@@ -2829,7 +2829,7 @@
     "Win": 3,
     "Draw": 6,
     "Loss": 5,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 13,
     "Pts": 12,
     "Goal Diff": 2
@@ -2844,7 +2844,7 @@
     "Win": 5,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 10,
     "Pts": 12,
     "Goal Diff": 1
@@ -2859,7 +2859,7 @@
     "Win": 4,
     "Draw": 4,
     "Loss": 4,
-    "Goals For": 16,
+    "Goals_For": 16,
     "Goals Against": 17,
     "Pts": 12,
     "Goal Diff": -1
@@ -2874,7 +2874,7 @@
     "Win": 5,
     "Draw": 2,
     "Loss": 11,
-    "Goals For": 24,
+    "Goals_For": 24,
     "Goals Against": 26,
     "Pts": 12,
     "Goal Diff": -2
@@ -2889,7 +2889,7 @@
     "Win": 5,
     "Draw": 2,
     "Loss": 5,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 19,
     "Pts": 12,
     "Goal Diff": -5
@@ -2904,7 +2904,7 @@
     "Win": 5,
     "Draw": 2,
     "Loss": 11,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 30,
     "Pts": 12,
     "Goal Diff": -15
@@ -2919,7 +2919,7 @@
     "Win": 4,
     "Draw": 4,
     "Loss": 10,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 29,
     "Pts": 12,
     "Goal Diff": -16
@@ -2934,7 +2934,7 @@
     "Win": 4,
     "Draw": 4,
     "Loss": 15,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 45,
     "Pts": 12,
     "Goal Diff": -25
@@ -2949,7 +2949,7 @@
     "Win": 3,
     "Draw": 6,
     "Loss": 13,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 36,
     "Pts": 12,
     "Goal Diff": -27
@@ -2964,7 +2964,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 5,
     "Pts": 11,
     "Goal Diff": 9
@@ -2979,7 +2979,7 @@
     "Win": 4,
     "Draw": 3,
     "Loss": 3,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 7,
     "Pts": 11,
     "Goal Diff": 7
@@ -2994,7 +2994,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 16,
+    "Goals_For": 16,
     "Goals Against": 14,
     "Pts": 11,
     "Goal Diff": 2
@@ -3009,7 +3009,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 9,
     "Pts": 11,
     "Goal Diff": 1
@@ -3024,7 +3024,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 4,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 18,
     "Pts": 11,
     "Goal Diff": 0
@@ -3039,7 +3039,7 @@
     "Win": 4,
     "Draw": 3,
     "Loss": 5,
-    "Goals For": 17,
+    "Goals_For": 17,
     "Goals Against": 19,
     "Pts": 11,
     "Goal Diff": -2
@@ -3054,7 +3054,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 4,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 17,
     "Pts": 11,
     "Goal Diff": -2
@@ -3069,7 +3069,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 6,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 25,
     "Pts": 11,
     "Goal Diff": -5
@@ -3084,7 +3084,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 6,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 18,
     "Pts": 11,
     "Goal Diff": -6
@@ -3099,7 +3099,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 6,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 25,
     "Pts": 11,
     "Goal Diff": -7
@@ -3114,7 +3114,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 6,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 17,
     "Pts": 11,
     "Goal Diff": -7
@@ -3129,7 +3129,7 @@
     "Win": 4,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 17,
+    "Goals_For": 17,
     "Goals Against": 25,
     "Pts": 11,
     "Goal Diff": -8
@@ -3144,7 +3144,7 @@
     "Win": 2,
     "Draw": 7,
     "Loss": 5,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 23,
     "Pts": 11,
     "Goal Diff": -8
@@ -3159,7 +3159,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 6,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 20,
     "Pts": 11,
     "Goal Diff": -8
@@ -3174,7 +3174,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 18,
     "Pts": 11,
     "Goal Diff": -10
@@ -3189,7 +3189,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 25,
     "Pts": 11,
     "Goal Diff": -13
@@ -3204,7 +3204,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 27,
     "Pts": 11,
     "Goal Diff": -14
@@ -3219,7 +3219,7 @@
     "Win": 3,
     "Draw": 5,
     "Loss": 13,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 52,
     "Pts": 11,
     "Goal Diff": -33
@@ -3234,7 +3234,7 @@
     "Win": 5,
     "Draw": 1,
     "Loss": 18,
-    "Goals For": 17,
+    "Goals_For": 17,
     "Goals Against": 66,
     "Pts": 11,
     "Goal Diff": -49
@@ -3249,7 +3249,7 @@
     "Win": 5,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 5,
     "Pts": 10,
     "Goal Diff": 9
@@ -3264,7 +3264,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 23,
+    "Goals_For": 23,
     "Goals Against": 15,
     "Pts": 10,
     "Goal Diff": 8
@@ -3279,7 +3279,7 @@
     "Win": 5,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 14,
     "Pts": 10,
     "Goal Diff": 6
@@ -3294,7 +3294,7 @@
     "Win": 5,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 11,
     "Pts": 10,
     "Goal Diff": 1
@@ -3309,7 +3309,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 11,
     "Pts": 10,
     "Goal Diff": 0
@@ -3324,7 +3324,7 @@
     "Win": 3,
     "Draw": 4,
     "Loss": 3,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 16,
     "Pts": 10,
     "Goal Diff": -1
@@ -3339,7 +3339,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 14,
     "Pts": 10,
     "Goal Diff": -1
@@ -3354,7 +3354,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 6,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 17,
     "Pts": 10,
     "Goal Diff": -3
@@ -3369,7 +3369,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 11,
     "Pts": 10,
     "Goal Diff": -4
@@ -3384,7 +3384,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 7,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 25,
     "Pts": 10,
     "Goal Diff": -6
@@ -3399,7 +3399,7 @@
     "Win": 4,
     "Draw": 2,
     "Loss": 6,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 22,
     "Pts": 10,
     "Goal Diff": -8
@@ -3414,7 +3414,7 @@
     "Win": 3,
     "Draw": 4,
     "Loss": 5,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 22,
     "Pts": 10,
     "Goal Diff": -9
@@ -3429,7 +3429,7 @@
     "Win": 2,
     "Draw": 6,
     "Loss": 14,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 36,
     "Pts": 10,
     "Goal Diff": -25
@@ -3444,7 +3444,7 @@
     "Win": 3,
     "Draw": 4,
     "Loss": 15,
-    "Goals For": 18,
+    "Goals_For": 18,
     "Goals Against": 47,
     "Pts": 10,
     "Goal Diff": -29
@@ -3459,7 +3459,7 @@
     "Win": 3,
     "Draw": 4,
     "Loss": 14,
-    "Goals For": 20,
+    "Goals_For": 20,
     "Goals Against": 66,
     "Pts": 10,
     "Goal Diff": -46
@@ -3474,7 +3474,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 4,
     "Pts": 9,
     "Goal Diff": 9
@@ -3489,7 +3489,7 @@
     "Win": 2,
     "Draw": 5,
     "Loss": 3,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 10,
     "Pts": 9,
     "Goal Diff": 4
@@ -3504,7 +3504,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 8,
     "Pts": 9,
     "Goal Diff": 2
@@ -3519,7 +3519,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 16,
+    "Goals_For": 16,
     "Goals Against": 16,
     "Pts": 9,
     "Goal Diff": 0
@@ -3534,7 +3534,7 @@
     "Win": 3,
     "Draw": 3,
     "Loss": 4,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 13,
     "Pts": 9,
     "Goal Diff": -1
@@ -3549,7 +3549,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 15,
     "Pts": 9,
     "Goal Diff": -3
@@ -3564,7 +3564,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 23,
     "Pts": 9,
     "Goal Diff": -9
@@ -3579,7 +3579,7 @@
     "Win": 3,
     "Draw": 3,
     "Loss": 6,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 28,
     "Pts": 9,
     "Goal Diff": -17
@@ -3594,7 +3594,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 11,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 31,
     "Pts": 9,
     "Goal Diff": -18
@@ -3609,7 +3609,7 @@
     "Win": 4,
     "Draw": 1,
     "Loss": 9,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 38,
     "Pts": 9,
     "Goal Diff": -27
@@ -3624,7 +3624,7 @@
     "Win": 3,
     "Draw": 3,
     "Loss": 18,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 66,
     "Pts": 9,
     "Goal Diff": -53
@@ -3639,7 +3639,7 @@
     "Win": 4,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 10,
     "Pts": 8,
     "Goal Diff": 3
@@ -3654,7 +3654,7 @@
     "Win": 4,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 13,
     "Pts": 8,
     "Goal Diff": 1
@@ -3669,7 +3669,7 @@
     "Win": 4,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 12,
     "Pts": 8,
     "Goal Diff": 0
@@ -3684,7 +3684,7 @@
     "Win": 4,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 12,
     "Pts": 8,
     "Goal Diff": -2
@@ -3699,7 +3699,7 @@
     "Win": 3,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 9,
     "Pts": 8,
     "Goal Diff": -3
@@ -3714,7 +3714,7 @@
     "Win": 2,
     "Draw": 4,
     "Loss": 6,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 18,
     "Pts": 8,
     "Goal Diff": -12
@@ -3729,7 +3729,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 1,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 3,
     "Pts": 7,
     "Goal Diff": 6
@@ -3744,7 +3744,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 5,
     "Pts": 7,
     "Goal Diff": 4
@@ -3759,7 +3759,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 6,
     "Pts": 7,
     "Goal Diff": 2
@@ -3774,7 +3774,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 7,
     "Pts": 7,
     "Goal Diff": 0
@@ -3789,7 +3789,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 3,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 12,
     "Pts": 7,
     "Goal Diff": -1
@@ -3804,7 +3804,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 10,
     "Pts": 7,
     "Goal Diff": -1
@@ -3819,7 +3819,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 3,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 9,
     "Pts": 7,
     "Goal Diff": -1
@@ -3834,7 +3834,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 5,
     "Pts": 7,
     "Goal Diff": -1
@@ -3849,7 +3849,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 19,
+    "Goals_For": 19,
     "Goals Against": 21,
     "Pts": 7,
     "Goal Diff": -2
@@ -3864,7 +3864,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 11,
     "Pts": 7,
     "Goal Diff": -3
@@ -3879,7 +3879,7 @@
     "Win": 3,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 21,
     "Pts": 7,
     "Goal Diff": -13
@@ -3894,7 +3894,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 9,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 30,
     "Pts": 7,
     "Goal Diff": -18
@@ -3909,7 +3909,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 13,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 32,
     "Pts": 7,
     "Goal Diff": -20
@@ -3924,7 +3924,7 @@
     "Win": 2,
     "Draw": 3,
     "Loss": 12,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 53,
     "Pts": 7,
     "Goal Diff": -48
@@ -3939,7 +3939,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 16,
+    "Goals_For": 16,
     "Goals Against": 5,
     "Pts": 6,
     "Goal Diff": 11
@@ -3954,7 +3954,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 7,
     "Pts": 6,
     "Goal Diff": 6
@@ -3969,7 +3969,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 2,
     "Pts": 6,
     "Goal Diff": 5
@@ -3984,7 +3984,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 5,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 11,
     "Pts": 6,
     "Goal Diff": 4
@@ -3999,7 +3999,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 8,
     "Pts": 6,
     "Goal Diff": 3
@@ -4014,7 +4014,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 6,
     "Pts": 6,
     "Goal Diff": 3
@@ -4029,7 +4029,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 11,
     "Pts": 6,
     "Goal Diff": 1
@@ -4044,7 +4044,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 7,
     "Pts": 6,
     "Goal Diff": 1
@@ -4059,7 +4059,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 11,
     "Pts": 6,
     "Goal Diff": -1
@@ -4074,7 +4074,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 8,
     "Pts": 6,
     "Goal Diff": -1
@@ -4089,7 +4089,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 8,
     "Pts": 6,
     "Goal Diff": -2
@@ -4104,7 +4104,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 12,
+    "Goals_For": 12,
     "Goals Against": 16,
     "Pts": 6,
     "Goal Diff": -4
@@ -4119,7 +4119,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 12,
     "Pts": 6,
     "Goal Diff": -4
@@ -4134,7 +4134,7 @@
     "Win": 1,
     "Draw": 4,
     "Loss": 3,
-    "Goals For": 13,
+    "Goals_For": 13,
     "Goals Against": 19,
     "Pts": 6,
     "Goal Diff": -6
@@ -4149,7 +4149,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 5,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 16,
     "Pts": 6,
     "Goal Diff": -7
@@ -4164,7 +4164,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 5,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 19,
     "Pts": 6,
     "Goal Diff": -10
@@ -4179,7 +4179,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 8,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 28,
     "Pts": 6,
     "Goal Diff": -13
@@ -4194,7 +4194,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 6,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 27,
     "Pts": 6,
     "Goal Diff": -17
@@ -4209,7 +4209,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 10,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 25,
     "Pts": 6,
     "Goal Diff": -18
@@ -4224,7 +4224,7 @@
     "Win": 2,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 30,
     "Pts": 6,
     "Goal Diff": -22
@@ -4239,7 +4239,7 @@
     "Win": 3,
     "Draw": 0,
     "Loss": 11,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 47,
     "Pts": 6,
     "Goal Diff": -32
@@ -4254,7 +4254,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 3,
     "Pts": 5,
     "Goal Diff": 4
@@ -4269,7 +4269,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 10,
+    "Goals_For": 10,
     "Goals Against": 8,
     "Pts": 5,
     "Goal Diff": 2
@@ -4284,7 +4284,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 0,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": 2
@@ -4299,7 +4299,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": 2
@@ -4314,7 +4314,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 1,
     "Pts": 5,
     "Goal Diff": 2
@@ -4329,7 +4329,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 2,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": 1
@@ -4344,7 +4344,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": 1
@@ -4359,7 +4359,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 4,
     "Pts": 5,
     "Goal Diff": 1
@@ -4374,7 +4374,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 4,
     "Pts": 5,
     "Goal Diff": 1
@@ -4389,7 +4389,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 7,
     "Pts": 5,
     "Goal Diff": 0
@@ -4404,7 +4404,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 4,
     "Pts": 5,
     "Goal Diff": 0
@@ -4419,7 +4419,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 6,
     "Pts": 5,
     "Goal Diff": -1
@@ -4434,7 +4434,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": -1
@@ -4449,7 +4449,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 4,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 11,
     "Pts": 5,
     "Goal Diff": -2
@@ -4464,7 +4464,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 11,
     "Pts": 5,
     "Goal Diff": -2
@@ -4479,7 +4479,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 5,
     "Pts": 5,
     "Goal Diff": -2
@@ -4494,7 +4494,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 6,
     "Pts": 5,
     "Goal Diff": -3
@@ -4509,7 +4509,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 11,
     "Pts": 5,
     "Goal Diff": -4
@@ -4524,7 +4524,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 14,
     "Pts": 5,
     "Goal Diff": -5
@@ -4539,7 +4539,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 12,
     "Pts": 5,
     "Goal Diff": -6
@@ -4554,7 +4554,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 15,
     "Pts": 5,
     "Goal Diff": -7
@@ -4569,7 +4569,7 @@
     "Win": 1,
     "Draw": 3,
     "Loss": 6,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 12,
     "Pts": 5,
     "Goal Diff": -7
@@ -4584,7 +4584,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 16,
     "Pts": 5,
     "Goal Diff": -8
@@ -4599,7 +4599,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 7,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 16,
     "Pts": 5,
     "Goal Diff": -9
@@ -4614,7 +4614,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 21,
     "Pts": 5,
     "Goal Diff": -12
@@ -4629,7 +4629,7 @@
     "Win": 2,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 20,
     "Pts": 5,
     "Goal Diff": -14
@@ -4644,7 +4644,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 5,
     "Pts": 4,
     "Goal Diff": 3
@@ -4659,7 +4659,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 4,
     "Pts": 4,
     "Goal Diff": 2
@@ -4674,7 +4674,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 15,
+    "Goals_For": 15,
     "Goals Against": 14,
     "Pts": 4,
     "Goal Diff": 1
@@ -4689,7 +4689,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 6,
     "Pts": 4,
     "Goal Diff": 1
@@ -4704,7 +4704,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 8,
     "Pts": 4,
     "Goal Diff": 0
@@ -4719,7 +4719,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 5,
     "Pts": 4,
     "Goal Diff": 0
@@ -4734,7 +4734,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 5,
     "Pts": 4,
     "Goal Diff": 0
@@ -4749,7 +4749,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 4,
     "Pts": 4,
     "Goal Diff": 0
@@ -4764,7 +4764,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 9,
     "Pts": 4,
     "Goal Diff": -1
@@ -4779,7 +4779,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 6,
     "Pts": 4,
     "Goal Diff": -1
@@ -4794,7 +4794,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 10,
     "Pts": 4,
     "Goal Diff": -2
@@ -4809,7 +4809,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 8,
     "Pts": 4,
     "Goal Diff": -2
@@ -4824,7 +4824,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 6,
     "Pts": 4,
     "Goal Diff": -2
@@ -4839,7 +4839,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 5,
     "Pts": 4,
     "Goal Diff": -2
@@ -4854,7 +4854,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 9,
     "Pts": 4,
     "Goal Diff": -3
@@ -4869,7 +4869,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 9,
     "Pts": 4,
     "Goal Diff": -3
@@ -4884,7 +4884,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 9,
     "Pts": 4,
     "Goal Diff": -3
@@ -4899,7 +4899,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 8,
     "Pts": 4,
     "Goal Diff": -3
@@ -4914,7 +4914,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 7,
     "Pts": 4,
     "Goal Diff": -3
@@ -4929,7 +4929,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 4,
     "Goal Diff": -3
@@ -4944,7 +4944,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 11,
     "Pts": 4,
     "Goal Diff": -4
@@ -4959,7 +4959,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 1,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 9,
     "Pts": 4,
     "Goal Diff": -4
@@ -4974,7 +4974,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 4,
     "Goal Diff": -4
@@ -4989,7 +4989,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 3,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 14,
     "Pts": 4,
     "Goal Diff": -6
@@ -5004,7 +5004,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 5,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 13,
     "Pts": 4,
     "Goal Diff": -8
@@ -5019,7 +5019,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 17,
     "Pts": 4,
     "Goal Diff": -10
@@ -5034,7 +5034,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 6,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 17,
     "Pts": 4,
     "Goal Diff": -12
@@ -5049,7 +5049,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 11,
-    "Goals For": 11,
+    "Goals_For": 11,
     "Goals Against": 29,
     "Pts": 4,
     "Goal Diff": -18
@@ -5064,7 +5064,7 @@
     "Win": 2,
     "Draw": 0,
     "Loss": 8,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 41,
     "Pts": 4,
     "Goal Diff": -27
@@ -5079,7 +5079,7 @@
     "Win": 1,
     "Draw": 2,
     "Loss": 11,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 52,
     "Pts": 4,
     "Goal Diff": -45
@@ -5094,7 +5094,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 0,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 1,
     "Pts": 3,
     "Goal Diff": 2
@@ -5109,7 +5109,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 3,
     "Pts": 3,
     "Goal Diff": 0
@@ -5124,7 +5124,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 3,
     "Pts": 3,
     "Goal Diff": 0
@@ -5139,7 +5139,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 2,
     "Pts": 3,
     "Goal Diff": 0
@@ -5154,7 +5154,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 5,
     "Pts": 3,
     "Goal Diff": -1
@@ -5169,7 +5169,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 3,
     "Goal Diff": -1
@@ -5184,7 +5184,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 1,
     "Pts": 3,
     "Goal Diff": -1
@@ -5199,7 +5199,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 3,
     "Goal Diff": -2
@@ -5214,7 +5214,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 8,
     "Pts": 3,
     "Goal Diff": -3
@@ -5229,7 +5229,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 4,
     "Pts": 3,
     "Goal Diff": -3
@@ -5244,7 +5244,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 9,
     "Pts": 3,
     "Goal Diff": -4
@@ -5259,7 +5259,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 8,
     "Pts": 3,
     "Goal Diff": -4
@@ -5274,7 +5274,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 3,
     "Goal Diff": -4
@@ -5289,7 +5289,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 5,
-    "Goals For": 14,
+    "Goals_For": 14,
     "Goals Against": 20,
     "Pts": 3,
     "Goal Diff": -6
@@ -5304,7 +5304,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 9,
     "Pts": 3,
     "Goal Diff": -6
@@ -5319,7 +5319,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 12,
     "Pts": 3,
     "Goal Diff": -7
@@ -5334,7 +5334,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 9,
     "Pts": 3,
     "Goal Diff": -7
@@ -5349,7 +5349,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 17,
     "Pts": 3,
     "Goal Diff": -8
@@ -5364,7 +5364,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 8,
+    "Goals_For": 8,
     "Goals Against": 17,
     "Pts": 3,
     "Goal Diff": -9
@@ -5379,7 +5379,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 14,
     "Pts": 3,
     "Goal Diff": -11
@@ -5394,7 +5394,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 6,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 14,
     "Pts": 3,
     "Goal Diff": -11
@@ -5409,7 +5409,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 8,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 19,
     "Pts": 3,
     "Goal Diff": -13
@@ -5424,7 +5424,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 6,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 22,
     "Pts": 3,
     "Goal Diff": -16
@@ -5439,7 +5439,7 @@
     "Win": 1,
     "Draw": 1,
     "Loss": 7,
-    "Goals For": 9,
+    "Goals_For": 9,
     "Goals Against": 26,
     "Pts": 3,
     "Goal Diff": -17
@@ -5454,7 +5454,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 7,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 20,
     "Pts": 3,
     "Goal Diff": -17
@@ -5469,7 +5469,7 @@
     "Win": 0,
     "Draw": 3,
     "Loss": 5,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 23,
     "Pts": 3,
     "Goal Diff": -21
@@ -5484,7 +5484,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 2,
     "Pts": 2,
     "Goal Diff": 2
@@ -5499,7 +5499,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": 0
@@ -5514,7 +5514,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": 0
@@ -5529,7 +5529,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": 0
@@ -5544,7 +5544,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": 0
@@ -5559,7 +5559,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 2,
     "Pts": 2,
     "Goal Diff": 0
@@ -5574,7 +5574,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 0,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 1,
     "Pts": 2,
     "Goal Diff": 0
@@ -5589,7 +5589,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 0,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 1,
     "Pts": 2,
     "Goal Diff": 0
@@ -5604,7 +5604,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -1
@@ -5619,7 +5619,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -1
@@ -5634,7 +5634,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": -1
@@ -5649,7 +5649,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 2,
     "Goal Diff": -1
@@ -5664,7 +5664,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 2,
     "Goal Diff": -1
@@ -5679,7 +5679,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -2
@@ -5694,7 +5694,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -2
@@ -5709,7 +5709,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -2
@@ -5724,7 +5724,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -2
@@ -5739,7 +5739,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -2
@@ -5754,7 +5754,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": -2
@@ -5769,7 +5769,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": -2
@@ -5784,7 +5784,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 2,
     "Goal Diff": -2
@@ -5799,7 +5799,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 8,
     "Pts": 2,
     "Goal Diff": -3
@@ -5814,7 +5814,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -3
@@ -5829,7 +5829,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 6,
     "Pts": 2,
     "Goal Diff": -3
@@ -5844,7 +5844,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -3
@@ -5859,7 +5859,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -3
@@ -5874,7 +5874,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -3
@@ -5889,7 +5889,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -3
@@ -5904,7 +5904,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -3
@@ -5919,7 +5919,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 4,
     "Pts": 2,
     "Goal Diff": -3
@@ -5934,7 +5934,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 8,
     "Pts": 2,
     "Goal Diff": -4
@@ -5949,7 +5949,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -4
@@ -5964,7 +5964,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -4
@@ -5979,7 +5979,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -4
@@ -5994,7 +5994,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 5,
     "Pts": 2,
     "Goal Diff": -4
@@ -6009,7 +6009,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 5,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 11,
     "Pts": 2,
     "Goal Diff": -5
@@ -6024,7 +6024,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 9,
     "Pts": 2,
     "Goal Diff": -5
@@ -6039,7 +6039,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 7,
     "Pts": 2,
     "Goal Diff": -5
@@ -6054,7 +6054,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 6,
     "Pts": 2,
     "Goal Diff": -5
@@ -6069,7 +6069,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 12,
     "Pts": 2,
     "Goal Diff": -6
@@ -6084,7 +6084,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 9,
     "Pts": 2,
     "Goal Diff": -6
@@ -6099,7 +6099,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 14,
     "Pts": 2,
     "Goal Diff": -7
@@ -6114,7 +6114,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 15,
     "Pts": 2,
     "Goal Diff": -8
@@ -6129,7 +6129,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 9,
     "Pts": 2,
     "Goal Diff": -8
@@ -6144,7 +6144,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 11,
     "Pts": 2,
     "Goal Diff": -9
@@ -6159,7 +6159,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 5,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 16,
     "Pts": 2,
     "Goal Diff": -12
@@ -6174,7 +6174,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 4,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 17,
     "Pts": 2,
     "Goal Diff": -14
@@ -6189,7 +6189,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 5,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 19,
     "Pts": 2,
     "Goal Diff": -16
@@ -6204,7 +6204,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 6,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 20,
     "Pts": 2,
     "Goal Diff": -18
@@ -6219,7 +6219,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 5,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 25,
     "Pts": 2,
     "Goal Diff": -22
@@ -6234,7 +6234,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 9,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 28,
     "Pts": 2,
     "Goal Diff": -24
@@ -6249,7 +6249,7 @@
     "Win": 0,
     "Draw": 2,
     "Loss": 6,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 28,
     "Pts": 2,
     "Goal Diff": -24
@@ -6264,7 +6264,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 7,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 26,
     "Pts": 2,
     "Goal Diff": -24
@@ -6279,7 +6279,7 @@
     "Win": 1,
     "Draw": 0,
     "Loss": 6,
-    "Goals For": 7,
+    "Goals_For": 7,
     "Goals Against": 36,
     "Pts": 2,
     "Goal Diff": -29
@@ -6294,7 +6294,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -1
@@ -6309,7 +6309,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -1
@@ -6324,7 +6324,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -1
@@ -6339,7 +6339,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -1
@@ -6354,7 +6354,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -1
@@ -6369,7 +6369,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 1,
     "Goal Diff": -1
@@ -6384,7 +6384,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 1,
     "Goal Diff": -1
@@ -6399,7 +6399,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 1,
     "Goal Diff": -1
@@ -6414,7 +6414,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 2,
     "Pts": 1,
     "Goal Diff": -1
@@ -6429,7 +6429,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 1,
     "Pts": 1,
     "Goal Diff": -1
@@ -6444,7 +6444,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -2
@@ -6459,7 +6459,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -2
@@ -6474,7 +6474,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -2
@@ -6489,7 +6489,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -2
@@ -6504,7 +6504,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -2
@@ -6519,7 +6519,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -2
@@ -6534,7 +6534,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -2
@@ -6549,7 +6549,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 2,
     "Pts": 1,
     "Goal Diff": -2
@@ -6564,7 +6564,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 1,
     "Goal Diff": -3
@@ -6579,7 +6579,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -3
@@ -6594,7 +6594,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 1,
     "Goal Diff": -3
@@ -6609,7 +6609,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 5,
     "Pts": 1,
     "Goal Diff": -4
@@ -6624,7 +6624,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 5,
     "Pts": 1,
     "Goal Diff": -4
@@ -6639,7 +6639,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 4,
     "Pts": 1,
     "Goal Diff": -4
@@ -6654,7 +6654,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 8,
     "Pts": 1,
     "Goal Diff": -5
@@ -6669,7 +6669,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 1,
     "Goal Diff": -5
@@ -6684,7 +6684,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 1,
     "Goal Diff": -5
@@ -6699,7 +6699,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 7,
     "Pts": 1,
     "Goal Diff": -6
@@ -6714,7 +6714,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 8,
     "Pts": 1,
     "Goal Diff": -7
@@ -6729,7 +6729,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 11,
     "Pts": 1,
     "Goal Diff": -8
@@ -6744,7 +6744,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 4,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 11,
     "Pts": 1,
     "Goal Diff": -11
@@ -6759,7 +6759,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 16,
     "Pts": 1,
     "Goal Diff": -13
@@ -6774,7 +6774,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 16,
     "Pts": 1,
     "Goal Diff": -14
@@ -6789,7 +6789,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 21,
     "Pts": 1,
     "Goal Diff": -15
@@ -6804,7 +6804,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 17,
     "Pts": 1,
     "Goal Diff": -16
@@ -6819,7 +6819,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 3,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 19,
     "Pts": 1,
     "Goal Diff": -17
@@ -6834,7 +6834,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 6,
+    "Goals_For": 6,
     "Goals Against": 25,
     "Pts": 1,
     "Goal Diff": -19
@@ -6849,7 +6849,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 20,
     "Pts": 1,
     "Goal Diff": -19
@@ -6864,7 +6864,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 24,
     "Pts": 1,
     "Goal Diff": -21
@@ -6879,7 +6879,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 6,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 26,
     "Pts": 1,
     "Goal Diff": -22
@@ -6894,7 +6894,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 7,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 28,
     "Pts": 1,
     "Goal Diff": -24
@@ -6909,7 +6909,7 @@
     "Win": 0,
     "Draw": 1,
     "Loss": 5,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 36,
     "Pts": 1,
     "Goal Diff": -32
@@ -6924,7 +6924,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 1,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 1,
     "Pts": 0,
     "Goal Diff": -1
@@ -6939,7 +6939,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -2
@@ -6954,7 +6954,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 2,
     "Pts": 0,
     "Goal Diff": -2
@@ -6969,7 +6969,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 2,
     "Pts": 0,
     "Goal Diff": -2
@@ -6984,7 +6984,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 2,
     "Pts": 0,
     "Goal Diff": -2
@@ -6999,7 +6999,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -3
@@ -7014,7 +7014,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -3
@@ -7029,7 +7029,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -3
@@ -7044,7 +7044,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -3
@@ -7059,7 +7059,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 0,
     "Goal Diff": -3
@@ -7074,7 +7074,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 0,
     "Goal Diff": -3
@@ -7089,7 +7089,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 0,
     "Goal Diff": -3
@@ -7104,7 +7104,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 0,
     "Goal Diff": -3
@@ -7119,7 +7119,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 3,
     "Pts": 0,
     "Goal Diff": -3
@@ -7134,7 +7134,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -4
@@ -7149,7 +7149,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -4
@@ -7164,7 +7164,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -4
@@ -7179,7 +7179,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -4
@@ -7194,7 +7194,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 3,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -4
@@ -7209,7 +7209,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -4
@@ -7224,7 +7224,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 4,
     "Pts": 0,
     "Goal Diff": -4
@@ -7239,7 +7239,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 4,
     "Pts": 0,
     "Goal Diff": -4
@@ -7254,7 +7254,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 4,
     "Pts": 0,
     "Goal Diff": -4
@@ -7269,7 +7269,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 8,
     "Pts": 0,
     "Goal Diff": -5
@@ -7284,7 +7284,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -5
@@ -7299,7 +7299,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -5
@@ -7314,7 +7314,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7329,7 +7329,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7344,7 +7344,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7359,7 +7359,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7374,7 +7374,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7389,7 +7389,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7404,7 +7404,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7419,7 +7419,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7434,7 +7434,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 5,
     "Pts": 0,
     "Goal Diff": -5
@@ -7449,7 +7449,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -6
@@ -7464,7 +7464,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -6
@@ -7479,7 +7479,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -6
@@ -7494,7 +7494,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -6
@@ -7509,7 +7509,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -6
@@ -7524,7 +7524,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 6,
     "Pts": 0,
     "Goal Diff": -6
@@ -7539,7 +7539,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 12,
     "Pts": 0,
     "Goal Diff": -7
@@ -7554,7 +7554,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 10,
     "Pts": 0,
     "Goal Diff": -7
@@ -7569,7 +7569,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 10,
     "Pts": 0,
     "Goal Diff": -7
@@ -7584,7 +7584,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 8,
     "Pts": 0,
     "Goal Diff": -7
@@ -7599,7 +7599,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 7,
     "Pts": 0,
     "Goal Diff": -7
@@ -7614,7 +7614,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 6,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 13,
     "Pts": 0,
     "Goal Diff": -8
@@ -7629,7 +7629,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 6,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 11,
     "Pts": 0,
     "Goal Diff": -8
@@ -7644,7 +7644,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 10,
     "Pts": 0,
     "Goal Diff": -8
@@ -7659,7 +7659,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 9,
     "Pts": 0,
     "Goal Diff": -8
@@ -7674,7 +7674,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 8,
     "Pts": 0,
     "Goal Diff": -8
@@ -7689,7 +7689,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 10,
     "Pts": 0,
     "Goal Diff": -9
@@ -7704,7 +7704,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 9,
     "Pts": 0,
     "Goal Diff": -9
@@ -7719,7 +7719,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 9,
     "Pts": 0,
     "Goal Diff": -9
@@ -7734,7 +7734,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 11,
     "Pts": 0,
     "Goal Diff": -10
@@ -7749,7 +7749,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 11,
     "Pts": 0,
     "Goal Diff": -10
@@ -7764,7 +7764,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 11,
     "Pts": 0,
     "Goal Diff": -11
@@ -7779,7 +7779,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 4,
+    "Goals_For": 4,
     "Goals Against": 16,
     "Pts": 0,
     "Goal Diff": -12
@@ -7794,7 +7794,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 5,
-    "Goals For": 2,
+    "Goals_For": 2,
     "Goals Against": 14,
     "Pts": 0,
     "Goal Diff": -12
@@ -7809,7 +7809,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 13,
     "Pts": 0,
     "Goal Diff": -12
@@ -7824,7 +7824,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 13,
     "Pts": 0,
     "Goal Diff": -13
@@ -7839,7 +7839,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 14,
     "Pts": 0,
     "Goal Diff": -14
@@ -7854,7 +7854,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 16,
     "Pts": 0,
     "Goal Diff": -16
@@ -7869,7 +7869,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 19,
     "Pts": 0,
     "Goal Diff": -18
@@ -7884,7 +7884,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 2,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 18,
     "Pts": 0,
     "Goal Diff": -18
@@ -7899,7 +7899,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 4,
-    "Goals For": 0,
+    "Goals_For": 0,
     "Goals Against": 20,
     "Pts": 0,
     "Goal Diff": -20
@@ -7914,7 +7914,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 8,
-    "Goals For": 5,
+    "Goals_For": 5,
     "Goals Against": 35,
     "Pts": 0,
     "Goal Diff": -30
@@ -7929,7 +7929,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 10,
-    "Goals For": 3,
+    "Goals_For": 3,
     "Goals Against": 43,
     "Pts": 0,
     "Goal Diff": -40
@@ -7944,7 +7944,7 @@
     "Win": 0,
     "Draw": 0,
     "Loss": 12,
-    "Goals For": 1,
+    "Goals_For": 1,
     "Goals Against": 56,
     "Pts": 0,
     "Goal Diff": -55
