@@ -10,16 +10,6 @@
             width: 800px;
             height: 600px;
         }
-
-        .country {
-            fill: lightblue;
-            stroke: white;
-        }
-
-        .country:hover {
-            fill: yellow;
-        }
-
         .country-label {
             font-size: 12px;
             fill: #000000;
@@ -72,7 +62,19 @@
             text-align: center;
             padding: 5px 0;
             border-radius: 6px;
+        }
+        #tooltip1 {
+            position: absolute;
+            visibility: hidden;
+            background-color: white;
+            border: 1px solid gray;
 
+            visibility: hidden;
+            width: 120px;
+
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
         }
 
         .map-title {
@@ -80,11 +82,80 @@
             font-weight: bold;
             text-anchor: middle;
         }
+
+        .legend {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            color: #000000;
+        }
+
+        .legend-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      .legend-item span {
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+        margin-right: 5px;
+      }
+      .country {
+    fill: lightblue;
+    stroke: white;
+}
+
+.country.low {
+    fill: #BCD2E8;
+}
+
+.country.medium {
+    fill: #73A5C6;
+}
+
+.country.high {
+    fill: #528AAE;
+}
+
+.country.higher {
+    fill: #2E5984;
+}
+
+.country.highest {
+    fill: #1E3F66;
+}
     </style>
 </head>
 
 <body>
-    <div id="map-container"></div>
+    <div id="map-container">
+        <div id="tooltip1" style="position: absolute; visibility: hidden;">
+            <p><span id="tooltip-country"></span></p>
+            <p><span id="tooltip-played1"></span></p>
+        </div>
+        <div class="legend">
+            <div class="legend-item">
+                <span style="background-color: #BCD2E8"></span> 0-99
+            </div>
+            <div class="legend-item">
+                <span style="background-color: #73A5C6"></span> 100 - 349
+            </div>
+            <div class="legend-item">
+                <span style="background-color: #528AAE"></span> 350-599
+            </div>
+            <div class="legend-item">
+                <span style="background-color: #2E5984"></span> 600-999
+            </div>
+            <div class="legend-item">
+                <span style="background-color: #1E3F66"></span> 999 and above
+            </div>
+        </div>
+    </div>
+   
     <div id="bar-chart-container" style="display: none;">
         <button class="back-button">Back to Map</button>
         <button class="participated-button">Participation Chart</button>
@@ -123,27 +194,76 @@
 
             var path = d3.geoPath().projection(projection);
 
-            var countries = svg.selectAll(".country")
-                .data(europeGeoJSON.features)
-                .enter()
-                .append("path")
-                .attr("class", "country")
+            d3.json("AllTimeRankingByCountry.json").then(function (countryData) {
+    var minPlayed = d3.min(countryData, function (d) { return d.Played; });
+    var maxPlayed = d3.max(countryData, function (d) { return d.Played; });
+
+    var colorScale = d3.scaleLinear()
+        .domain([0, 99, 349, 599, 999, 1999])
+        .range([ "lowest", "low", "medium", "high", "higher", "highest"]);
+
+    var countries = svg.selectAll(".country")
+        .data(europeGeoJSON.features)
+        .enter()
+        .append("path")
+        .attr("class", function (d) {
+            var country = countryData.find(function (item) {
+                return item.Country === d.properties.name_en;
+            });
+            if (country) {
+                return "country " + colorScale(country.Played);
+            } else {
+                return "country";
+            }
+        })
+        .attr("d", path)
                 .attr("d", path)
                 .on("mouseover", function (event, d) {
-                    d3.select(this).style("fill", "yellow");
+                    
                     var centroid = path.centroid(d);
                     svg.append("text")
                         .attr("class", "country-label")
                         .attr("x", centroid[0])
                         .attr("y", centroid[1])
                         .text(d.properties.name_en)
-                        .style("visibility", "visible");
-                })
-                .on("mouseout", function () {
-                    d3.select(this).style("fill", "lightblue");
-                    svg.select(".country-label").remove();
-                });
+                      
 
+                    var tooltip = d3.select("#tooltip1");
+                    tooltip.style("visibility", "visible")
+                        .style("top", (event.pageY - 10) + "px")
+                        .style("left", (event.pageX + 10) + "px");
+                    tooltip.select("#tooltip-country").text(d.properties.name_en);
+
+
+                    d3.json("AllTimeRankingByCountry.json").then(function (countryData) {
+                        var country = countryData.find(function (item) {
+                            return item.Country === d.properties.name_en;
+                        });
+                        if (country) {
+                            tooltip.select("#tooltip-played1").text("Played: " + country.Played);
+                        } else {
+                            tooltip.select("#tooltip-played1").text("Played: N/A");
+                        }
+                    });
+                })
+
+                .on("mouseout", function () {
+                   
+                    var tooltip = d3.select("#tooltip1");
+                    tooltip.style("visibility", "hidden");
+                });
+                svg.selectAll(".country-label")
+        .data(europeGeoJSON.features)
+        .enter().append("text")
+        .attr("class", "country-label")
+        .attr("transform", function (d) { return "translate(" + path.centroid(d) + ")"; })
+        .attr("dy", ".35em")
+        .text(function (d) { return d.properties.name_en; });
+        countries.on("click", function(event, d) {
+    var countryName = d.properties.name_en;
+    loadTeamData(countryName);
+});
+            });
             function loadTeamData(countryName) {
                 d3.json("AllTimeRankingByClub.json")
                     .then(function (teamData) {
@@ -184,8 +304,6 @@
 
             }
           
-
-            
             function loadTeamData3(countryName) {
                 d3.json("AllTimeRankingByClub.json")
                     .then(function (teamData) {
@@ -212,8 +330,6 @@
                     });
 
             }
-
-
 
             function displayBarChart(teams) {
                 d3.select("#bar-chart-container").selectAll("svg").remove()
@@ -272,10 +388,6 @@
                     .attr("y", function (team) { return yScale(team.Played); })
                     .attr("height", function (team) { return plotHeight - (yScale(team.Played) - margin.top); });
 
-
-
-
-
                 chartContainer.append("g")
                     .attr("class", "x-axis")
                     .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
@@ -297,7 +409,21 @@
                     .attr("x", width / 2)
                     .attr("y", margin.top / 2)
                     .style("text-anchor", "middle")
-                    .text("Number of games played by clubs in " + teams[0].Country);
+                    .text("Number of Champion Leauge games played by clubs from " + teams[0].Country);
+                    var xAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("x", width / 2)
+    .attr("y", height - margin.bottom / 32) // Adjust the y position
+    .style("text-anchor", "middle")
+    .text("Team Name");
+
+var yAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", margin.left / 2)
+    .style("text-anchor", "middle")
+    .text("Games Played");
 
                 var pieWidth = 400;
                 var pieHeight = 300;
@@ -368,10 +494,6 @@
                         }
                     });
 
-
-
-
-
                 d3.select(".back-button")
                     .on("click", function () {
                         d3.select("#map-container").style("display", "block");
@@ -408,7 +530,6 @@
 
                     });
                    
-
                     d3.select(".points-button")
                     .on("click", function () {
 
@@ -423,20 +544,12 @@
                         loadTeamData4(selectedCountry);
 
                     });
-
-
-
-
-
-
             }
+
             function displayBarChart1(teams) {
                 d3.select("#bar-chart-container").selectAll("svg").remove()
 
                 d3.select("#bar-chart-container").style("display", "block");
-
-
-
 
                 var chartContainer = d3.select("#bar-chart-container")
                     .append("svg")
@@ -489,10 +602,6 @@
                     .attr("y", function (team) { return yScale(team.Participated); })
                     .attr("height", function (team) { return plotHeight - (yScale(team.Participated) - margin.top); });
 
-
-
-
-
                 chartContainer.append("g")
                     .attr("class", "x-axis")
                     .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
@@ -514,7 +623,21 @@
                     .attr("x", width / 2)
                     .attr("y", margin.top / 2)
                     .style("text-anchor", "middle")
-                    .text("Number of seasons participated by clubs in " + teams[0].Country);
+                    .text("Number of seasons participated in Champions League by clubs from " + teams[0].Country);
+                    var xAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("x", width / 2)
+    .attr("y", height - margin.bottom / 32) 
+    .style("text-anchor", "middle")
+    .text("Team Name");
+
+var yAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", margin.left / 2)
+    .style("text-anchor", "middle")
+    .text("Seasons Participated");
 
                 var pieWidth = 400;
                 var pieHeight = 300;
@@ -569,7 +692,8 @@
                         .attr("x", pieWidth / 2)
                         .attr("y", 20)
                         .style("text-anchor", "middle")
-                        .text(team.Club);
+                        .text(team.Club)
+                        
                 }
 
                 chartContainer.selectAll(".bar")
@@ -586,12 +710,6 @@
                             pieContainer.style("display", "block");
                         }
                     });
-
-
-
-
-
-
 
                 d3.select(".back-button")
                     .on("click", function () {
@@ -659,10 +777,6 @@
         .attr("y", function (team) { return yScale(team.Goals_For); })
         .attr("height", function (team) { return plotHeight - (yScale(team.Goals_For) - margin.top); });
 
-
-
-
-
     chartContainer.append("g")
         .attr("class", "x-axis")
         .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
@@ -684,7 +798,21 @@
         .attr("x", width / 2)
         .attr("y", margin.top / 2)
         .style("text-anchor", "middle")
-        .text("Number of goals scored by clubs in " + teams[0].Country);
+        .text("Number of goals scored in Champions League by clubs from " + teams[0].Country);
+        var xAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("x", width / 2)
+    .attr("y", height - margin.bottom / 32) 
+    .style("text-anchor", "middle")
+    .text("Team Name");
+
+var yAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", margin.left / 2)
+    .style("text-anchor", "middle")
+    .text("Goals Scored");
 
     var pieWidth = 400;
     var pieHeight = 300;
@@ -756,12 +884,6 @@
                 pieContainer.style("display", "block");
             }
         });
-
-
-        
-
-
-    
 
     d3.select(".back-button")
         .on("click", function () {
@@ -829,10 +951,6 @@ function displayBarChart3(teams) {
         .attr("y", function (team) { return yScale(team.Pts); })
         .attr("height", function (team) { return plotHeight - (yScale(team.Pts) - margin.top); });
 
-
-
-
-
     chartContainer.append("g")
         .attr("class", "x-axis")
         .attr("transform", "translate(0," + (margin.top + plotHeight) + ")")
@@ -854,7 +972,22 @@ function displayBarChart3(teams) {
         .attr("x", width / 2)
         .attr("y", margin.top / 2)
         .style("text-anchor", "middle")
-        .text("Number of points  by clubs in " + teams[0].Country);
+        .text("Number of points won in Champions League  by clubs from " + teams[0].Country);
+
+        var xAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("x", width / 2)
+    .attr("y", height - margin.bottom / 32) 
+    .style("text-anchor", "middle")
+    .text("Team Name");
+
+var yAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", margin.left / 2)
+    .style("text-anchor", "middle")
+    .text("Points");
 
     var pieWidth = 400;
     var pieHeight = 300;
@@ -927,12 +1060,6 @@ function displayBarChart3(teams) {
             }
         });
 
-
-        
-
-
-    
-
     d3.select(".back-button")
         .on("click", function () {
             d3.select("#map-container").style("display", "block");
@@ -944,8 +1071,6 @@ function displayBarChart3(teams) {
 function displayBarChart4(teams) {
     d3.select("#bar-chart-container").selectAll("svg").remove()
     d3.select("#bar-chart-container").style("display", "block");
-
-    
 
     var chartContainer = d3.select("#bar-chart-container")
         .append("svg")
@@ -1023,7 +1148,22 @@ function displayBarChart4(teams) {
         .attr("x", width / 2)
         .attr("y", margin.top / 2)
         .style("text-anchor", "middle")
-        .text("Number of Titles  by clubs in " + teams[0].Country);
+        .text("Number of Champions Leauge Titles  by clubs from " + teams[0].Country);
+        
+        var xAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("x", width / 2)
+    .attr("y", height - margin.bottom / 32) 
+    .style("text-anchor", "middle")
+    .text("Team Name");
+
+var yAxisLabel = chartContainer.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -height / 2)
+    .attr("y", margin.left / 2)
+    .style("text-anchor", "middle")
+    .text("Titles");
 
     var pieWidth = 400;
     var pieHeight = 300;
@@ -1096,12 +1236,6 @@ function displayBarChart4(teams) {
             }
         });
 
-
-        
-
-
-    
-
     d3.select(".back-button")
         .on("click", function () {
             d3.select("#map-container").style("display", "block");
@@ -1111,10 +1245,7 @@ function displayBarChart4(teams) {
         });
 }
 
-            countries.on("click", function (event, d) {
-                var countryName = d.properties.name_en;
-                loadTeamData(countryName);
-            });
+          
         });
     </script>
 </body>
